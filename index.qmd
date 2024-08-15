@@ -1,0 +1,57 @@
+---
+title: "Kasia Kedzierska"
+about:
+  id: hero-heading
+  template: jolla
+  image: avatar.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/kzkedzierska
+    - icon: github
+      text: Github
+      href: https://github.com/kzkedzierska
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/kzkedzierska/
+    - icon: scholar
+      text: Scholar
+      href: https://scholar.google.com/citations?user=Yv6poTwAAAAJ&hl=en
+---
+
+:::{#hero-heading}
+:::
+
+
+
+## Hello! 👋
+
+My name is Kasia Kedzierska. My research interest lies at the intersection of **Machine Learning** and **Biology & Healthcare**. The rapid advancements in technology, especially those enabling investigating genomics at single cell resolution, coupled with the progress in Machine Learning, have rendered computational biology an exceptionally captivating and invigorating field of study. Within this space, I’m particularly interested in Multimodal and Generative Models.
+
+If you find anything on this website interesting or just fancy a chat about the intersection of biology, healthcare and Machine Learning be sure to reach out!
+
+
+## Experience
+
+DeepLife | Deep Learning Researcher | Paris, France (Remote)
+
+Microsoft Research New England | Intern | Cambridge, Massachusetts, USA
+
+Novo Nordisk Research Centre Oxford | Intern | Oxford, United Kingdom
+
+University of Virginia | Visiting Graduate Student @ Ratan group | Charlottesville, Virginia, USA
+
+
+## Education
+
+PhD, Genomic Medicine and Statistics | University of Oxford | Oxford, UK | 2018 - 2024
+
+MSc Eng, Biotechnology | Warsaw University of Technology | Warsaw, Poland | 2015 - 2018
+
+::: {style="font-size: 75%;"}
+
+#### About my name
+
+Actually, my full name is Katarzyna Kedzierska, or Katarzyna Zofia Kedzierska (including my middle name). In Polish, we usually have a shorter version of a name that we go by and reserve the full legal name (here: Katarzyna) for official occasions, or when we get in trouble with our parents. Here you can find recordings on how to pronounce my shorter name: [Kasia](https://www.howtopronounce.com/kasia/30911273) or longer: [Katarzyna](https://www.howtopronounce.com/katarzyna/28825507).
+
+:::

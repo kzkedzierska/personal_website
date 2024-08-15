@@ -1,0 +1,23 @@
+project:
+  type: website
+website:
+  title: "Kasia Kedzierska"
+  navbar:
+    left:
+      - research.qmd
+      - photography.qmd
+  page-footer:
+    center: 
+      - text: "© 2024 Kasia Kedzierska"
+
+page-footer:
+    background: dark
+    right: test
+    left: test2
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+  

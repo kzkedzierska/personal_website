@@ -1,0 +1,20 @@
+---
+title: "Photography"
+editor: source
+---
+
+# Analog photography
+
+In my spare time I like to take photos with one of the old cameras. I quite enjoy the lomography style of taking photos (*Lomography* is a photographic style which involves taking spontaneous photographs with minimal attention to technical details; source [wiki](https://en.wikipedia.org/wiki/Toy_camera#Lomography)). I also like to experiment with shooting photos. 
+
+I decided to post the photos on my website to make myself choose the shots I like best and keep them for my records. 
+
+## 
+Shot in Boston, July 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200 (pushed +1). 
+
+::: {layout-nrow="1"}
+
+![](./assets/photography/boston/goose.jpg){.lightbox group="temp"}
+![](./assets/photography/boston/man_on_the_horse.jpg){.lightbox group="temp"}
+![](./assets/photography/boston/snowflake.jpg){.lightbox group="temp"}
+:::
