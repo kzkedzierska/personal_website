@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Kasia Kedzierska",
+    "title": "kasia.codes",
     "section": "",
-    "text": "twitter\n  \n  \n    \n     Github\n  \n  \n    \n     Linkedin\n  \n  \n    \n     Scholar"
+    "text": "Github\n  \n  \n    \n     Linkedin\n  \n  \n      Scholar\n  \n  \n    \n     Twitter\n  \n  \n    \n     Email\n  \n\n  \n  \n\n\nI’m Kasia Kedzierska. I’ve recently graduated with a PhD in Genomic Medicine and Statistics from the University of Oxford. I work at the intersection of deep learning and computational biology, where I have a strong interest in multimodal and generative models.\nI’m fascinated by the potential of machine learning to transform biology and healthcare – especially about using ML to get a better understanding of the underlying biology.\nIf you find anything on this website interesting or just fancy a chat about the intersection of biology, healthcare and machine learning be sure to reach out!"
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "photography.html",
     "title": "Photography",
     "section": "",
-    "text": "Analog photography\nIn my spare time I like to take photos with one of the old cameras. I quite enjoy the lomography style of taking photos (Lomography is a photographic style which involves taking spontaneous photographs with minimal attention to technical details; source wiki). I also like to experiment with shooting photos.\nI decided to post the photos on my website to make myself choose the shots I like best and keep them for my records.\n\nShot in Boston, July 2023 with Praktica BX20 on Kodak Color Plus, ISO 200 (pushed +1)."
+    "text": "In my spare time I like to take photos with one of the old cameras. I quite enjoy the lomography style of taking photos (Lomography is a photographic style which involves taking spontaneous photographs with minimal attention to technical details; source wiki). I also like to experiment with shooting photos.\nI decided to post the photos on my website to make myself choose the shots I like best and keep them for my records.\n\n\nShot in Boston, July 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200 (pushed +1).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShot in New York, May 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShot in Oxford, October 2022 with Praktica BX20 w/ Pentacon 50mm F1.8 on Lomography Metropolis, ISO 200.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSee more here.\nShot in Warsaw/Jablonna, September 2022 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200."
   },
   {
     "objectID": "about.html#education",
@@ -51,22 +51,134 @@
   {
     "objectID": "index.html#hello",
     "href": "index.html#hello",
-    "title": "Kasia Kedzierska",
-    "section": "Hello! 👋",
-    "text": "Hello! 👋\nMy name is Kasia Kedzierska. My research interest lies at the intersection of Machine Learning and Biology & Healthcare. The rapid advancements in technology, especially those enabling investigating genomics at single cell resolution, coupled with the progress in Machine Learning, have rendered computational biology an exceptionally captivating and invigorating field of study. Within this space, I’m particularly interested in Multimodal and Generative Models.\nIf you find anything on this website interesting or just fancy a chat about the intersection of biology, healthcare and Machine Learning be sure to reach out!"
+    "title": "kasia.codes",
+    "section": "",
+    "text": "I’m Kasia Kedzierska. I’ve recently graduated with a PhD in Genomic Medicine and Statistics from the University of Oxford. I work at the intersection of deep learning and computational biology, where I have a strong interest in multimodal and generative models.\nI’m fascinated by the potential of machine learning to transform biology and healthcare – especially about using ML to get a better understanding of the underlying biology.\nIf you find anything on this website interesting or just fancy a chat about the intersection of biology, healthcare and machine learning be sure to reach out!"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "Kasia Kedzierska",
+    "title": "kasia.codes",
     "section": "Experience",
-    "text": "Experience\nDeepLife | Deep Learning Researcher | Paris, France (Remote)\nMicrosoft Research New England | Intern | Cambridge, Massachusetts, USA\nNovo Nordisk Research Centre Oxford | Intern | Oxford, United Kingdom\nUniversity of Virginia | Visiting Graduate Student @ Ratan group | Charlottesville, Virginia, USA"
+    "text": "Experience\nFeb ’24 - present  Deep Learning Researcher @ DeepLife  Paris, France (Remote)\nSummer ’23  Intern @ Microsoft Research New England Lab  Cambridge, Massachusetts, USA\nSummer ’21  Intern @ Novo Nordisk Research Centre Oxford  Oxford, UK\n2016 - 2018  Visiting Graduate Student @ Ratan group, University of Virginia  Charlottesville, Virginia, USA"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Kasia Kedzierska",
+    "title": "kasia.codes",
     "section": "Education",
-    "text": "Education\nPhD, Genomic Medicine and Statistics | University of Oxford | Oxford, UK | 2018 - 2024\nMSc Eng, Biotechnology | Warsaw University of Technology | Warsaw, Poland | 2015 - 2018\n\nAbout my name\nActually, my full name is Katarzyna Kedzierska, or Katarzyna Zofia Kedzierska (including my middle name). In Polish, we usually have a shorter version of a name that we go by and reserve the full legal name (here: Katarzyna) for official occasions, or when we get in trouble with our parents. Here you can find recordings on how to pronounce my shorter name: Kasia or longer: Katarzyna."
+    "text": "Education\n2018 - 2024  PhD, Genomic Medicine and Statistics from University of Oxford  Oxford, UK\n2015 - 2018  MSc Eng, Biotechnology from Warsaw University of Technology  Warsaw, Poland\n\nAbout my name\nActually, my full name is Katarzyna Kedzierska, or Katarzyna Zofia Kedzierska (including my middle name). In Polish, we usually have a shorter version of a name that we go by and reserve the full legal name (here: Katarzyna) for official occasions, or when we get in trouble with our parents. Here you can find recordings on how to pronounce my shorter name: Kasia or longer: Katarzyna."
+  },
+  {
+    "objectID": "photography.html#section",
+    "href": "photography.html#section",
+    "title": "Photography",
+    "section": "",
+    "text": "Shot in Boston, July 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200 (pushed +1)."
+  },
+  {
+    "objectID": "example.html",
+    "href": "example.html",
+    "title": "Example Lightbox Document",
+    "section": "",
+    "text": "In my spare time I like to take photos with one of the old cameras. I quite enjoy the lomography style of taking photos (Lomography is a photographic style which involves taking spontaneous photographs with minimal attention to technical details; source wiki). I also like to experiment with shooting photos.\nI decided to post the photos on my website to make myself choose the shots I like best and keep them for my records.\n\n\nShot in Boston, July 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200 (pushed +1).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOptions for lightbox can be passed using chunk options.\n\nplot(1:10, rnorm(10))\n\n\n\n\nSimple demo R plot\n\n\n\n\n\nplot(cars)\n\n\n\n\nPlot about cars data\n\n\n\n\nIt is possible to create several plots, and group them in a lightbox gallery. Use list in YAML for options when you have several plots, on per plot.\n\nplot(mtcars)\n\n\n\n\nCaption for first plot\n\n\n\nplot(cars)\n\n\n\n\nCaption for second plot\n\n\n\n\nWhen lightbox: auto in main YAML config, you can opt-out lightbox on a plot by setting lightbox: false\n\nplot(mtcars)\n\n\n\n\nmtcars\n\n\n\n\n\n\n\nThe images in this example were used under the Unsplash license, view originals below:\n\nChilmark Beach\nAquinnah\nGingerbread House\nEdgartown Light\nEdgartown Sailboat\n\n\n\n\n\nThis is 1 to 10 plot\n\n\nWe see our cars data above\n\n\nThis is the decription for first graph\n\n\nThis is the decription for second graph"
+  },
+  {
+    "objectID": "example.html#chilmark",
+    "href": "example.html#chilmark",
+    "title": "Example Lightbox Document",
+    "section": "",
+    "text": "Here is a simple image with a description. This also overrides the description position and places it to the left of the image.\n\n\n\nBeach in Chilmark"
+  },
+  {
+    "objectID": "example.html#elsewhere",
+    "href": "example.html#elsewhere",
+    "title": "Example Lightbox Document",
+    "section": "",
+    "text": "Shot in Boston, July 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200 (pushed +1).\n\n\n\n\n\n\n\n\n\nAquinnah\n\n\n\n\n\n\n\nOak Bluffs\n\n\n\n\n\n\n\n\n\nVineyard lighthouse"
+  },
+  {
+    "objectID": "example.html#with-computation-code-chunks",
+    "href": "example.html#with-computation-code-chunks",
+    "title": "Example Lightbox Document",
+    "section": "",
+    "text": "Options for lightbox can be passed using chunk options.\n\nplot(1:10, rnorm(10))\n\n\n\n\nSimple demo R plot\n\n\n\n\n\nplot(cars)\n\n\n\n\nPlot about cars data\n\n\n\n\nIt is possible to create several plots, and group them in a lightbox gallery. Use list in YAML for options when you have several plots, on per plot.\n\nplot(mtcars)\n\n\n\n\nCaption for first plot\n\n\n\nplot(cars)\n\n\n\n\nCaption for second plot\n\n\n\n\nWhen lightbox: auto in main YAML config, you can opt-out lightbox on a plot by setting lightbox: false\n\nplot(mtcars)\n\n\n\n\nmtcars"
+  },
+  {
+    "objectID": "example.html#credits",
+    "href": "example.html#credits",
+    "title": "Example Lightbox Document",
+    "section": "",
+    "text": "The images in this example were used under the Unsplash license, view originals below:\n\nChilmark Beach\nAquinnah\nGingerbread House\nEdgartown Light\nEdgartown Sailboat\n\n\n\n\n\nThis is 1 to 10 plot\n\n\nWe see our cars data above\n\n\nThis is the decription for first graph\n\n\nThis is the decription for second graph"
+  },
+  {
+    "objectID": "photography.html#temp",
+    "href": "photography.html#temp",
+    "title": "Photography",
+    "section": "",
+    "text": "Shot in Boston, July 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200 (pushed +1).\n\n\n\n\n\n\n\n\n\nA\n\n\n\n\n\n\n\nV\n\n\n\n\n\n\n\n\n\nC\n\n\n\n\n\n\n\n\n\nThe waves break off the coast of Aquinnah on a beautiful summer day."
+  },
+  {
+    "objectID": "example.html#mm",
+    "href": "example.html#mm",
+    "title": "Example Lightbox Document",
+    "section": "",
+    "text": "Shot in Boston, July 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200 (pushed +1)."
+  },
+  {
+    "objectID": "photography.html#mm-film",
+    "href": "photography.html#mm-film",
+    "title": "Photography",
+    "section": "",
+    "text": "Shot in Boston, July 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200 (pushed +1).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShot in New York, May 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShot in Oxford, October 2022 with Praktica BX20 w/ Pentacon 50mm F1.8 on Lomography Metropolis, ISO 200.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSee more here.\nShot in Warsaw/Jablonna, September 2022 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Notes on coding and stuff",
+    "section": "",
+    "text": "Setting up the key verification for an ssh connection\n\n\n\n\n\n\nnotes\n\n\nhowto\n\n\n\nSimple tutorial on setting up key verification for a secure connection with the server.\n\n\n\n\n\nFeb 7, 2019\n\n\n4 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/ssh.html",
+    "href": "posts/ssh.html",
+    "title": "Setting up the key verification for an ssh connection",
+    "section": "",
+    "text": "This is a simple tutorial on how to set up key verification for a secure connection. It is suppose to help actually setting up the verification, to learn more about the SSH key I recommend this page on Arch Linux Wiki."
+  },
+  {
+    "objectID": "posts/ssh.html#prerequisites",
+    "href": "posts/ssh.html#prerequisites",
+    "title": "Setting up the key verification for an ssh connection",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nRequired * ssh-keygen * ssh-copy-id\nHelpful - necessary to copy the key to github account. * xclip\nsudo apt install ssh-keygen ssh-copy-id"
+  },
+  {
+    "objectID": "posts/ssh.html#creating-a-key",
+    "href": "posts/ssh.html#creating-a-key",
+    "title": "Setting up the key verification for an ssh connection",
+    "section": "Creating a key",
+    "text": "Creating a key\nFirst, we need to create a key. We can do that by simply typing in ssh-keygen in our console. This will result in 2048 bit RSA key.\nssh-keygen\nFirst we will be asked as to where to save the key?\n~$ ssh-keygen\nGenerating public/private rsa key pair.\nEnter file in which to save the key (/home/username/.ssh/id_rsa):\nI keep my keys in the default directory, but like to name them as I use keys for multiple things (connecting to the server, GitHub and more). Remember to put the whole path for the key (or navigate to the directory you want to store your key), otherwise it will be saved in a current directory.\nNext, we are asked for passphrase. If you wish not to have a password protected key (i.e. don’t want to prompted for a password every time you use it, just press enter). It is recommended though to encrypt the key so that it cannot be used by someone who shouldn’t otherwise have access. For strong passwords I either use my KeePassXC random generator or use one of the online tools.\n~$ ssh-keygen\nGenerating public/private rsa key pair.\nEnter file in which to save the key (/home/username/.ssh/id_rsa): /home/username/.ssh/work_server\nEnter passphrase (empty for no passphrase):\nEnter same passphrase again:\nYour identification has been saved in /home/username/.ssh/work_server\nYour public key has been saved in /home/username/.ssh/work_server.pub.\nThe key fingerprint is:\nSHA256:sP/uJ20hblyGGlQGf4/iASWXU10cEUwdtVbjk8nbh0g username@yoga\nThe key's randomart image is:\n+---[RSA 2048]----+\n|        o.oo..oX@|\n|         ==   +.O|\n|      . .o..E  O |\n|       o.. o +..+|\n|      ..S o.o o.o|\n|       ...oo+   .|\n|        .=.= .   |\n|        ..= +    |\n|         +++     |\n+----[SHA256]-----+\nThere is much more to the ssh-keygen program than what’s described above, I definately recommend giving a manual a read! For example you may wish to increase the number of bits to 4048 by specifing it with -b 4048, or add a comment to the key with -C \"dell machine\". You can access the info about the program by simply typing:\nman ssh-keygen"
+  },
+  {
+    "objectID": "posts/ssh.html#copying-the-key-to-the-server",
+    "href": "posts/ssh.html#copying-the-key-to-the-server",
+    "title": "Setting up the key verification for an ssh connection",
+    "section": "Copying the key to the server",
+    "text": "Copying the key to the server\nNext, we want to copy the key to the server. This can be done by:\nssh-copy-id -i /home/username/.ssh/work_server.pub userName@hostName\nYou’ll be prompted for your password, same way you log into the server normally.\nAgain, it’s worth reading manual pages on ssh-copy-id as you may want to specify ssh options for example.\nman ssh-copy-id"
+  },
+  {
+    "objectID": "posts/ssh.html#testing-the-connection",
+    "href": "posts/ssh.html#testing-the-connection",
+    "title": "Setting up the key verification for an ssh connection",
+    "section": "Testing the connection",
+    "text": "Testing the connection\nTo test the key type:\nssh -i /home/username/.ssh/work_server userName@hostName\n\nssh config (recommended)\nTo simplify, a good practice is to write down the configuration of the connection in the config file in the .ssh directory. The above connection would like this in the /home/username/.ssh/config file:\nHost work_server\n    Hostname hostName\n    User userName\n    IdentityFile /home/username/.ssh/work_server\nand then, you can simply type:\nssh work_server\n\n\nAlias\nAlternatively, you can create an alias in your .bashrc, .bash_profile or equivalent.\nalias work_server='ssh -i /home/username/.ssh/work_server userName@hostName'\nWhen you modify your .bashrc or equivalent in the terminal session, you need to source it, for example source ~/.bashrc to overwrite already read in configration. You can also test the command in a new terminal session, where the newest config is sourced automatically. When you open new terminal, or after sourcing, you can simply run:\nwork_server"
+  },
+  {
+    "objectID": "posts/ssh.html#github",
+    "href": "posts/ssh.html#github",
+    "title": "Setting up the key verification for an ssh connection",
+    "section": "Github",
+    "text": "Github\nTo copy key to your github account, please refer to this really nice help pages."
   }
 ]

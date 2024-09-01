@@ -1,6 +1,6 @@
 ---
 title: "Photography"
-editor: source
+lightbox: auto
 ---
 
 # Analog photography
@@ -9,12 +9,57 @@ In my spare time I like to take photos with one of the old cameras. I quite enjo
 
 I decided to post the photos on my website to make myself choose the shots I like best and keep them for my records. 
 
-## 
+## 35 mm film
 Shot in Boston, July 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200 (pushed +1). 
 
-::: {layout-nrow="1"}
+::: {layout="[[1, 1, 1]]"}
 
-![](./assets/photography/boston/goose.jpg){.lightbox group="temp"}
-![](./assets/photography/boston/man_on_the_horse.jpg){.lightbox group="temp"}
-![](./assets/photography/boston/snowflake.jpg){.lightbox group="temp"}
+![](./assets/photography/boston/goose.jpg){group="boston"}
+
+
+![](./assets/photography/boston/man_on_the_horse.jpg){group="boston"}
+
+
+![](./assets/photography/boston/snowflake.jpg){group="boston"}
+:::
+
+Shot in New York, May 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200.
+
+::: {layout="[[1, 1, 1], [1, 1, 1]]"}
+![](./assets/photography/nyc/01_manhattan.jpg){group="nyc"}
+
+![](./assets/photography/nyc/02_statue_o_liberty.jpg){group="nyc"}
+
+![](./assets/photography/nyc/03_cshl.jpg){group="nyc"}
+
+![](./assets/photography/nyc/04_highline.jpg){group="nyc"}
+
+![](./assets/photography/nyc/05_banbury.jpg){group="nyc"}
+:::
+
+
+Shot in Oxford, October 2022 with Praktica BX20 w/ Pentacon 50mm F1.8 on Lomography Metropolis, ISO 200.
+
+::: {layout="[[1, 1, 1]]"}
+![](./assets/photography/oxford/2022_october_praktica_metropolis_1.jpg){group="oxford"}
+
+![](./assets/photography/oxford/2022_october_praktica_metropolis_10.jpg){group="oxford"}
+
+![](./assets/photography/oxford/2022_october_praktica_metropolis_8.jpg){group="oxford"}
+
+:::
+
+See more [here](https://photos.app.goo.gl/sxb5TzGRRFBVuE2s9).
+
+Shot in Warsaw/Jablonna, September 2022 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200. 
+
+::: {layout="[[1, 1, 1]]"}
+
+![](./assets/photography/jablonna/53420004.JPG){group="jablonna"}
+
+
+![](./assets/photography/jablonna/53420012.JPG){group="jablonna"}
+
+
+![](./assets/photography/jablonna/53420013.JPG){group="jablonna"}
 :::

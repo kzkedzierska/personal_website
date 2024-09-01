@@ -1,23 +1,35 @@
 project:
   type: website
 website:
-  title: "Kasia Kedzierska"
+  title: "kasia.codes"
+  favicon: assets/images/icon.svg
   navbar:
+    logo: assets/images/logo.png
     left:
-      - research.qmd
-      - photography.qmd
+      - text: Blog
+        icon: pen-fill
+        href: blog.qmd
+      - text: Photography
+        icon: camera-fill
+        href: photography.qmd
+      - text: Resume
+        icon: person-fill
+        href: assets/cv/resume.html
+      
   page-footer:
     center: 
-      - text: "© 2024 Kasia Kedzierska"
+      - text: "© 2024 Kasia Kedzierska // Made with R and Quarto"
+        icon: heart-fill
+        href: https://quarto.org
 
 page-footer:
-    background: dark
+    background: black
     right: test
     left: test2
 
 format:
   html:
-    theme: flatly
+    theme: sandstone
     css: styles.css
     toc: true
   

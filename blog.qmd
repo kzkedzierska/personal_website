@@ -1,0 +1,24 @@
+---
+title: "Notes on coding and stuff"
+description-meta: "A blog for various notes on topics related to coding, data science and computational biology"
+listing:
+  contents: posts
+  type: default
+  image-align: left
+  fields: 
+    - title
+    - description
+    - date
+    - image
+    - categories
+    - reading-time
+  categories: true
+  sort: "date desc"
+  page-size: 5
+  feed:
+    categories: 
+      - howto
+      - notes
+format:
+  html
+---

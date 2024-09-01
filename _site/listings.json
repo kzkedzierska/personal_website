@@ -1,0 +1,12 @@
+[
+  {
+    "listing": "/photography.html",
+    "items": []
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/ssh.html"
+    ]
+  }
+]

@@ -1,57 +1,56 @@
 ---
-title: "Kasia Kedzierska"
+pagetitle: "Kasia Kedzierska | Perdonal website"
 about:
   id: hero-heading
-  template: jolla
-  image: avatar.jpg
+  template: trestles
+  image: avatar.png
   links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com/kzkedzierska
     - icon: github
       text: Github
       href: https://github.com/kzkedzierska
     - icon: linkedin
       text: Linkedin
       href: https://www.linkedin.com/in/kzkedzierska/
-    - icon: scholar
-      text: Scholar
+    - text: "{{< fa graduation-cap >}} Scholar"
       href: https://scholar.google.com/citations?user=Yv6poTwAAAAJ&hl=en
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/kzkedzierska
+    - icon: envelope
+      text: Email
+      href: mailto:mail@kasia.codes
 ---
 
-:::{#hero-heading}
-:::
-
-
-
+::: {#hero-heading}
 ## Hello! 👋
 
-My name is Kasia Kedzierska. My research interest lies at the intersection of **Machine Learning** and **Biology & Healthcare**. The rapid advancements in technology, especially those enabling investigating genomics at single cell resolution, coupled with the progress in Machine Learning, have rendered computational biology an exceptionally captivating and invigorating field of study. Within this space, I’m particularly interested in Multimodal and Generative Models.
+I'm Kasia Kedzierska. I’ve recently graduated with a PhD in Genomic Medicine and Statistics from the University of Oxford. I work at the intersection of deep learning and computational biology, where I have a strong interest in multimodal and generative models.
 
-If you find anything on this website interesting or just fancy a chat about the intersection of biology, healthcare and Machine Learning be sure to reach out!
+I'm fascinated by the potential of machine learning to transform biology and healthcare -- especially about using ML to get a better understanding of the underlying biology.
 
+If you find anything on this website interesting or just fancy a chat about the intersection of **biology**, **healthcare** and **machine learning** be sure to reach out!
+:::
+
+</br>
 
 ## Experience
 
-DeepLife | Deep Learning Researcher | Paris, France (Remote)
+[Feb '24 - present]{.small-text} {{< fa laptop title="Work" >}} Deep Learning Researcher \@ [DeepLife](https://www.deeplife.co/) [{{< fa location-dot title="Location" >}} Paris, France (Remote)]{.small-text}
 
-Microsoft Research New England | Intern | Cambridge, Massachusetts, USA
+[Summer '23]{.small-text} {{< fa laptop title="Work" >}} Intern \@ [Microsoft Research New England Lab](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/) [{{< fa location-dot title="Location" >}} Cambridge, Massachusetts, USA]{.small-text}
 
-Novo Nordisk Research Centre Oxford | Intern | Oxford, United Kingdom
+[Summer '21]{.small-text} {{< fa laptop title="Work" >}} Intern \@ [Novo Nordisk Research Centre Oxford](https://www.novonordisk.com/science-and-technology/research-and-technology-centres/oxford-research-centre.html) [{{< fa location-dot title="Location" >}} Oxford, UK]{.small-text}
 
-University of Virginia | Visiting Graduate Student @ Ratan group | Charlottesville, Virginia, USA
-
+[2016 - 2018]{.small-text} {{< fa laptop title="Work" >}} Visiting Graduate Student \@ [Ratan group, University of Virginia](https://med.virginia.edu/faculty/faculty-listing/ar7jq/) [{{< fa location-dot title="Location" >}} Charlottesville, Virginia, USA]{.small-text}
 
 ## Education
 
-PhD, Genomic Medicine and Statistics | University of Oxford | Oxford, UK | 2018 - 2024
+[2018 - 2024]{.small-text} {{< fa graduation-cap title="Graduation cap" >}} PhD, Genomic Medicine and Statistics from University of Oxford [{{< fa location-dot title="Location" >}} Oxford, UK]{.small-text}
 
-MSc Eng, Biotechnology | Warsaw University of Technology | Warsaw, Poland | 2015 - 2018
+[2015 - 2018]{.small-text} {{< fa graduation-cap title="Graduation cap" >}} MSc Eng, Biotechnology from Warsaw University of Technology [{{< fa location-dot title="Location" >}} Warsaw, Poland]{.small-text}
 
 ::: {style="font-size: 75%;"}
-
 #### About my name
 
 Actually, my full name is Katarzyna Kedzierska, or Katarzyna Zofia Kedzierska (including my middle name). In Polish, we usually have a shorter version of a name that we go by and reserve the full legal name (here: Katarzyna) for official occasions, or when we get in trouble with our parents. Here you can find recordings on how to pronounce my shorter name: [Kasia](https://www.howtopronounce.com/kasia/30911273) or longer: [Katarzyna](https://www.howtopronounce.com/katarzyna/28825507).
-
 :::

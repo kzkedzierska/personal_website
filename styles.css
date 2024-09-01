@@ -4,3 +4,59 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+a {
+  color: #274c77; 
+}
+
+.navbar {
+  background-color: #274c77
+}
+
+.navbar a {
+  color: #e7ecef;
+}
+/* Example of linking a Google Font 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+*/
+
+/* Apply the font to the body to change it globally */
+body {
+    font-family: 'Roboto', sans-serif; /* Replace 'Roboto' with your chosen font */
+} 
+
+/* Set the background color of the entire page */
+body {
+    background-color: white; /* Light gray background, you can change this */
+}
+
+
+.small-text {
+    font-size: 12px;
+}
+
+.nav-footer {
+  background-color: #274c77;
+  color: #e7ecef;
+}
+
+.nav-footer a {
+  color: #e7ecef;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+    border-left: 1px solid #982649;
+    color: #982649 !important;
+}
+
+.sidebar nav[role="doc-toc"] a.active,
+.sidebar nav[role="doc-toc"] a:hover {
+    border-left: 1px solid #982649;
+    color: #982649 !important;
+}
+
+.nav-link a:hoover {
+    color: #982649;
+
+}
+
