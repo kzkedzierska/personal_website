@@ -2,6 +2,7 @@
 title: "Setting up the key verification for an ssh connection"
 description: "Simple tutorial on setting up key verification for a secure connection with the server."
 date: "2019-02-07"
+image: ssh.png
 categories:
   - notes
   - howto
