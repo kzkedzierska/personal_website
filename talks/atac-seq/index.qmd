@@ -1,0 +1,25 @@
+---
+title: "ATAC-seq workshop"
+description: "2-hours practical introduction to ATAC-seq data analysis."
+date: "2017-09-17T10:00:00"
+image: featured.png
+author:
+  - name: Kasia Kedzierska
+categories:
+  - computational biology
+  - bioinformatics
+  - workshop
+---
+
+
+<span class="listing-btn-group">
+<a href="https://ngschool.eu/ngschool2017/" class="btn" role="button">{{< fa globe >}} NGSchool2017 Summer School website</a> 
+<a href="https://docs.google.com/presentation/d/1THNGy-wIvZziXv5SShlfNfaKfZwh4qLnZWMRqhHl01I/edit?usp=sharing" class="btn" role="button">{{< fa display >}} Slides</a> 
+<a href="https://github.com/kzkedzierska/ATACseq_workshop" class="btn" role="button">{{< fa brands github >}} Code</a>
+
+</span>
+
+![](featured.png)
+
+This workshop provides an introduction to the key aspects of ATAC-seq data analysis. Participants will gain hands-on experience with a selection of methods commonly used in the field. This workshop serves as a practical introduction to the ATAC-seq data analysis.
+

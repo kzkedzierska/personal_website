@@ -1,0 +1,19 @@
+---
+title: "Talks and tutorials"
+description-meta: "Talks, workshops and tutorials taught"
+listing:
+  contents: .
+  type: default
+  image-align: left
+  fields: 
+    - title
+    - description
+    - date
+    - image
+    - categories
+  categories: true
+  sort: "date desc"
+  page-size: 5
+format:
+  html
+---

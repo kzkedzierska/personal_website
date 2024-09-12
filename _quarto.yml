@@ -9,12 +9,17 @@ website:
       - text: Blog
         icon: pen-fill
         href: blog.qmd
+      - text: Teaching
+        icon: laptop-fill
+        href: talks
       - text: Photography
         icon: camera-fill
         href: photography.qmd
       - text: Resume
         icon: person-fill
         href: assets/cv/resume.html
+        target: "_blank"
+  
       
   page-footer:
     center: 
