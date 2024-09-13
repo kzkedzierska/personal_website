@@ -1,0 +1,3 @@
+[submodule "posts/covid-19"]
+	path = posts/covid-19
+	url = git@github.com:kzkedzierska/COVID-19_England_Wales.git
