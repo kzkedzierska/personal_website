@@ -1,0 +1,40 @@
+---
+title: Unsupervised learning
+description: "Lecture and tutorial prepared and taught jointly by me and [Kaspar Märtens](https://kaspar.website/) at the [NGSchool2022](https://ngschool.eu/ngschool2022/) in September 2022 in Jablonna, Poland. "
+author:
+  - name: Kasia Kedzierska
+  - name: Kaspar Märtens 
+date: "2022-09-16T16:00:00"
+image: featured.png
+links:
+- name: Github repository
+  url: https://github.com/kzkedzierska/ngs22_unsupervised
+categories: 
+  - R
+  - unsupervised learning
+  - PCA
+  - clustering
+---
+
+<span class="listing-btn-group">
+<a href="https://github.com/kzkedzierska/ngs22_unsupervised" class="btn" role="button">{{< fa brands github >}} Code</a>
+</span>
+
+![](featured.png)
+
+
+What does this tutorial cover/explore?
+
+* Dimensionality reduction:
+  * Linear: PCA
+  * Non-linear: tSNE, UMAP
+* Clustering:
+  * K-means
+  * Hierarchical clustering
+
+We split the two 90 minutes sessions into a lecture and a workshop. In that space of time is quite difficult to cover the area so vast as Unsupervised Learning. Our goal here was to talk about the methods, explain their applications and some intuitions around them. In order to fully understand them we would recommend exploring each method in more detail in the materials we linked in the repository.
+
+The tutorial was written in `R` using `learnr` package allowing for it to be self contained and one should be able to run at home as well. There are some questions and exercises there, as well as the points to ponder about - look out for 🛁.
+
+The materials for the lecture and workshop are available on [Github](https://github.com/kzkedzierska/ngs22_unsupervised) together with instructions on how to work with them.
+

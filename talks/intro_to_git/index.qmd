@@ -1,0 +1,25 @@
+---
+title: Introduction to Git 
+description: "I run this workshop two years in the row for PhD students and young researchers in the Wellcome Centre for Human Genetics in Oxford."
+author:
+  - name: Kasia Kedzierska
+date: "2020-11-12T13:00:00"
+image: featured.png
+categories:
+  - git
+  - intro
+---
+
+<span class="listing-btn-group">
+<a href="http://bit.ly/Git_repo" class="btn" role="button">{{< fa display >}} Slides</a> 
+<a href="http://bit.ly/intro_to_git" class="btn" role="button">{{< fa brands github >}} Code</a>
+</span>
+
+![](featured.png)
+
+I led this course, with help from [Duncan Parkes](https://github.com/duncanparkes), two years in a row. This 2-hour tutorial is designed to:
+- explain basic concepts of Git
+- highlight the benefits of version control and Git
+- show the pivotal commands.
+
+The slides, containing screenshots of executed commands, are available via [bit.ly/Git_repo](http://bit.ly/Git_repo). The repository with exercises and solutions is available at [bit.ly/intro_to_git](http://bit.ly/intro_to_git). 
