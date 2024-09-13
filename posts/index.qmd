@@ -2,7 +2,7 @@
 title: "Notes on coding and stuff"
 description-meta: "A blog for various notes on topics related to coding, data science and computational biology"
 listing:
-  contents: posts
+  contents: .
   type: default
   image-align: left
   fields: 

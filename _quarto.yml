@@ -6,9 +6,9 @@ website:
   navbar:
     logo: assets/images/logo.png
     left:
-      - text: Blog
+      - text: Posts
         icon: pen-fill
-        href: blog.qmd
+        href: posts
       - text: Teaching
         icon: laptop-fill
         href: talks

@@ -33,7 +33,7 @@ If you find anything on this website interesting or just fancy a chat about the 
 
 </br>
 
-## Experience
+## {{< fa laptop title="Work" >}} Experience
 
 <!-- {{< fa laptop title="Work" >}} -->
 
@@ -46,11 +46,15 @@ If you find anything on this website interesting or just fancy a chat about the 
 
 : {tbl-colwidths="[15,65,20]" .hover}
 
-## Education
+## {{< fa graduation-cap title="Graduation cap" >}}  Education
 
-[2018 - 2024]{.small-text} {{< fa graduation-cap title="Graduation cap" >}} PhD, Genomic Medicine and Statistics from University of Oxford [{{< fa location-dot title="Location" >}} Oxford, UK]{.small-text}
+| | | |   
+|:-----|:------|------:|  
+| [2018 - 2024]{.small-text} | PhD, Genomic Medicine and Statistics from University of Oxford | [{{< fa location-dot title="Location" >}} Oxford, UK]{.small-text} |
+| [2015 - 2018]{.small-text} | MSc Eng, Biotechnology from Warsaw University of Technology | [{{< fa location-dot title="Location" >}} Warsaw, Poland]{.small-text} |
 
-[2015 - 2018]{.small-text} {{< fa graduation-cap title="Graduation cap" >}} MSc Eng, Biotechnology from Warsaw University of Technology [{{< fa location-dot title="Location" >}} Warsaw, Poland]{.small-text}
+: {tbl-colwidths="[15,65,20]" .hover}
+
 
 ::: {style="font-size: 75%;"}
 #### About my name
