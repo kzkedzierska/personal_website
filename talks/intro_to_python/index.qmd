@@ -1,0 +1,27 @@
+---
+title: "Introduction to Python"
+description: "This workshop is design for those who didn't code before or had limited exposure to other coding framework. With this workshop, I hope to show how Python works, what libraries are available and how to load and use them."
+authors:
+  - name: Kasia Kedzierska
+date: "2020-06-25T16:00:00"
+image: featured.jpg
+categories: 
+- python
+- NGSeminars
+---
+
+<span class="listing-btn-group">
+<a href="https://ngschool.eu/ngschool2019/" class="btn" role="button">{{< fa globe >}} NGSchool2017 Summer School website</a>
+<a href="https://github.com/NGSchoolEU/ngs19_python_intro" class="btn" role="button">{{< fa brands github >}} Code</a>
+<a href="https://www.youtube.com/embed/sL0bPDmgsms" class="btn" role="button">{{< fa play-circle >}} Video</a>
+</span>
+
+![](featured.jpg)
+
+Below you can find a recording of the webinar as given on 25/06/2020 during COVID-19 pandemic for a [NGSeminars](https://ngschool.eu/ngseminars/) series.
+
+The materials for the workshop are available on [Github](https://github.com/NGSchoolEU/ngs19_python_intro) together with instructions on how to work with them.
+
+In case you have any questions or suggestions - checkout the [NGSchool Discord space](https://discord.com/invite/MhNeqwR) or contact me via [contact form](/#contact).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sL0bPDmgsms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

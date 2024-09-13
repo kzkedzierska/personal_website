@@ -11,12 +11,10 @@ categories:
   - workshop
 ---
 
-
 <span class="listing-btn-group">
 <a href="https://ngschool.eu/ngschool2017/" class="btn" role="button">{{< fa globe >}} NGSchool2017 Summer School website</a> 
 <a href="https://docs.google.com/presentation/d/1THNGy-wIvZziXv5SShlfNfaKfZwh4qLnZWMRqhHl01I/edit?usp=sharing" class="btn" role="button">{{< fa display >}} Slides</a> 
 <a href="https://github.com/kzkedzierska/ATACseq_workshop" class="btn" role="button">{{< fa brands github >}} Code</a>
-
 </span>
 
 ![](featured.png)

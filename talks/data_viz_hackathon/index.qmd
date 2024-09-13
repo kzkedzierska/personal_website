@@ -7,7 +7,7 @@ date: "2021-09-08T13:00:00"
 image: featured.png
 categories:
   - data viz
-  - bionformatics
+  - bioinformatics
 ---
 
 <span class="listing-btn-group">
