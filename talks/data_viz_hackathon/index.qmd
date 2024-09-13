@@ -1,0 +1,24 @@
+---
+title: "Data visualization in bioinformatics"
+description: "I mentored hackathon during [NGSprint](https://ngschool.eu/ngsprint/) where during the first part I taught data visualisation principles (with focus on use cases in computational biology) and introduction to interactivity with plotly and R Shiny. In the second part, participants applied their knowledge to visaulise the TCGA LGG data set."
+author: 
+  - name: Kasia Kedzierska
+date: "2021-09-08T13:00:00"
+image: featured.png
+categories:
+  - data viz
+  - bionformatics
+---
+
+<span class="listing-btn-group">
+<a href="https://github.com/kzkedzierska/NGSprint_data_viz" class="btn" role="button">{{< fa brands github >}} Code</a>
+</span>
+
+![](featured.png)
+
+A good figure can speak a thousand words while a less perfect one can confuse the reader instead of telling the stories. Learning how to visualise and represent complex ideas, especially large datasets such as the ones we tend to work on daily basis is crucial part of a bioinformatician's skill set. In this hackathon we will focus on telling stories with our plots. We will try to fix some confusing figures. We will also build our interactive graphs and animations, while also trying to understand when these are helping to convey the message and when they distract from the main points.
+
+During this hackathon we explored what makes a good figure and how to avoid common pitfalls. We discussed which rules are important and which we can treat as suggestions.
+
+During the hackathon the participants were tasked with creating compelling visualisations describing one of the Cancer types investigated within the TCGA consortium. Each team preapred a presentation presenting the cancer type and key results from the analysis of transcriptomic, mutation and clinical data. They created interactive visualisations and shiny apps that allowed users to investigate the results in more detail. 
+
