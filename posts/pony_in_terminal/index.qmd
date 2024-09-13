@@ -1,0 +1,106 @@
+---
+title: Nineteen Years Later
+author: Harry Potter
+date: July 31, 2016
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Brighten up your console
+
+## Prerequisites {.tabset}
+
+This should work in unix terminal, so far I used it in Ubuntu Bash and Mac Bash and Mac Zsh.
+
+To sample the fortunes, you need to have `fortune` and `fortune-mod` installed.
+`fortunes` is also useful as it consist of a collection of fortunes. `lolcat` is
+a fun tool to colorize the output. `cowsay` and `ponysay` are fun tools to
+ display the output in a speech/thought bubble authored by a cow or a pony,
+  or some abstract animal.
+
+To install all prerequisites, run the following command in your terminal:
+
+### Linux
+
+```bash
+sudo apt install fortune fortune-mod fortunes cowsay lolcat
+sudo snap install ponysay
+```
+
+### Mac
+
+```sh
+brew tap daviderestivo/fortune-mod
+brew install fortune cowsay lolcat ponysay
+```
+
+## tl;dr
+
+If you want to be greated by a fancy cow or pony to brighten up your day, add
+ the following command to your `.bashrc` or `.bash_profile`. If you add it to
+ `.bashrc`, you will be greeted by a cow every time you open a new terminal,
+ in contrast to `.bash_profile` which will only greet you when you open a new
+  terminal window or connect to a remote server.
+
+```bash
+
+
+fancy_console_greeting() {
+  # TODO: docstring
+
+  __depends=(cowsay fortune lolcat ponysay)
+  for __dep in ${__depends[@]}; do
+    __to_install=()
+    if ! command -v ${__dep} &> /dev/null; then
+      __to_install+=(${__dep})
+    fi
+    # if there are any dependencies to install, print a message
+    if [[ ${#__to_install[@]} -gt 0 ]]; then
+      echo "To use fancy_console_greeting, you need to \
+      install the following dependencies: ${__to_install[@]}"
+    fi
+
+  done
+
+   # compose the message
+  __date=$(date '+%H:%M on %A, %B %d, %Y')
+  __fortune=$(fortune -s wisdom)
+  __message="Welcome!\n\n"
+  __message+="It's ${__date}.\n\n"
+  __message+="Today's wisdom:\n"
+  __message+="${__fortune}"
+  
+  # randomly choose if printing a cow or a pony
+  if [ $((RANDOM % 2)) -eq 0 ]; then
+    # sample a image from cowsay set
+    __cow=$(cowsay -l | tail -n+2 | sed 's/ /\n/g' | shuf | head -n1)
+    echo -e "${__message}" |
+      cowsay -f "${__cow}" -W 45 |
+        lolcat -F 0.01
+  else
+    echo -e "${__message}" |
+      ponysay --compact
+  fi
+}
+
+fancy_console_greeting
+
+```
+
+## Walkthrough
+
+### Fortunes
+
+To display a random fortune, run the following command in your terminal:
+
+```bash
+fortune
+```
+
+```console
+$ fortune -s science
+Statistics are no substitute for judgement.
+                -- Henry Clay
+```
