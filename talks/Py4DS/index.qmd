@@ -1,0 +1,27 @@
+---
+title: "Python for Data Science"
+description: "Extension of the introduction class focused on how to leverage vast repository of Python modules to efficiently wrangle, analyze and visualize small and big data. We will mostly focus on NumPy, Pandas and Matplotlib, but also touch on ML libraries and Seaborn."
+author:
+  - name: Kasia Kedzierska
+date: "2020-07-09T16:00:00"
+categories: # all lowercase
+  - python
+  - NGSeminars
+  - intermediate
+---
+
+<span class="listing-btn-group">
+<a href="https://ngschool.eu/ngschool2019/" class="btn" role="button">{{< fa globe >}} NGSchool2019 Summer School website</a>
+<a href="https://github.com/NGSchoolEU/ngs19_python_intro" class="btn" role="button">{{< fa brands github >}} Code</a>
+<a href="https://www.youtube.com/watch?v=7URUxlTZ2fg" class="btn" role="button">{{< fa play-circle >}} Video</a>
+</span>
+
+![](featured.jpg)
+
+Below you can find a recording of the webinar, a second part of the Python tutorial, as given on 09/07/2020 during COVID-19 pandemic for a [NGSeminars](https://ngschool.eu/ngseminars2020/) series. 
+
+The materials for the workshop are available on [Github](https://github.com/NGSchoolEU/ngs19_python_intro) together with instructions on how to work with them.
+
+In case you have any questions or suggestions - checkout the [NGSchool Discord space](https://discord.com/invite/MhNeqwR) or contact me via [email](mailto:mail@kasia.codes).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7URUxlTZ2fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -8,20 +8,21 @@ image: featured.jpg
 categories: 
 - python
 - NGSeminars
+- intro
 ---
 
 <span class="listing-btn-group">
-<a href="https://ngschool.eu/ngschool2019/" class="btn" role="button">{{< fa globe >}} NGSchool2017 Summer School website</a>
+<a href="https://ngschool.eu/ngschool2019/" class="btn" role="button">{{< fa globe >}} NGSchool2019 Summer School website</a>
 <a href="https://github.com/NGSchoolEU/ngs19_python_intro" class="btn" role="button">{{< fa brands github >}} Code</a>
 <a href="https://www.youtube.com/embed/sL0bPDmgsms" class="btn" role="button">{{< fa play-circle >}} Video</a>
 </span>
 
 ![](featured.jpg)
 
-Below you can find a recording of the webinar as given on 25/06/2020 during COVID-19 pandemic for a [NGSeminars](https://ngschool.eu/ngseminars/) series.
+Below you can find a recording of the webinar as given on 25/06/2020 during COVID-19 pandemic for a [NGSeminars](https://ngschool.eu/ngseminars2020/) series.
 
 The materials for the workshop are available on [Github](https://github.com/NGSchoolEU/ngs19_python_intro) together with instructions on how to work with them.
 
-In case you have any questions or suggestions - checkout the [NGSchool Discord space](https://discord.com/invite/MhNeqwR) or contact me via [contact form](/#contact).
+In case you have any questions or suggestions - checkout the [NGSchool Discord space](https://discord.com/invite/MhNeqwR) or contact me via [email](mailto:mail@kasia.codes).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sL0bPDmgsms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
