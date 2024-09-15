@@ -27,15 +27,35 @@
 }
 
 a {
-  color: var(--secondary-light);
-}
-
-a:hover {
   color: var(--primary-dark);
 }
 
-h {
-  color: #242E0C;
+a:hover,
+a:focus {
+  color: var(--secondary-medium);
+}
+
+h,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-dark);
+  border-bottom: 0px solid var(--primary-dark);
+}
+
+.table,
+table {
+  border-width: 0px;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+}
+
+.table th {
+  border-bottom-width: 0px;
+  border-top-width: 0px;
 }
 
 .navbar {
