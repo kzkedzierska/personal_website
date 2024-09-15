@@ -3,7 +3,7 @@ pagetitle: "Kasia Kedzierska | Perdonal website"
 about:
   id: hero-heading
   template: trestles
-  image: avatar.png
+  image: portrait.jpg
   links:
     - icon: github
       text: Github

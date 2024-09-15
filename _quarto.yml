@@ -27,14 +27,9 @@ website:
         icon: heart-fill
         href: https://quarto.org
 
-page-footer:
-    background: black
-    right: test
-    left: test2
-
 format:
   html:
-    theme: sandstone
+    theme: cosmo
     css: styles.css
     toc: true
   

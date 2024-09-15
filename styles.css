@@ -5,58 +5,86 @@
   margin-right: auto;
 }
 
+/* define colors */
+:root {
+  --primary-dark: #161D0A;
+  --primary-medium: #496012;
+  --primary-light: #7B8C05;
+  --secondary-dark: #30211C;
+  --secondary-medium: #A0947A;
+  --secondary-light: #BDB7A6;
+  --light: #F8F5F2;
+}
+
+.btn-link {
+  color: var(--secondary-light);
+  --bs-btn-hover-color: var(--secondary-dark);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--secondary-light);
+}
+
 a {
-  color: #274c77; 
+  color: var(--secondary-light);
+}
+
+a:hover {
+  color: var(--primary-dark);
+}
+
+h {
+  color: #242E0C;
 }
 
 .navbar {
-  background-color: #274c77
+  background-color: var(--primary-dark)
 }
 
 .navbar a {
-  color: #e7ecef;
+  color: var(--light);
 }
+
+.navbar a:hover {
+  color: var(--primary-light);
+}
+
 /* Example of linking a Google Font 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 */
 
-/* Apply the font to the body to change it globally */
 body {
-    font-family: 'Roboto', sans-serif; /* Replace 'Roboto' with your chosen font */
-} 
-
-/* Set the background color of the entire page */
-body {
-    background-color: white; /* Light gray background, you can change this */
+  background-color: var(--light);
+  font-family: 'Roboto', sans-serif;
 }
 
-
 .small-text {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .nav-footer {
-  background-color: #274c77;
-  color: #e7ecef;
+  background-color: var(--secondary-dark);
+  color: var(--secondary-light);
 }
 
 .nav-footer a {
-  color: #e7ecef;
+  color: var(--secondary-light);
 }
 
-.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
-    border-left: 1px solid #982649;
-    color: #982649 !important;
+.sidebar nav[role=doc-toc] ul>li>a.active,
+.sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+  border-left: 1px solid var(--secondary-dark);
+  color: var(--secondary-dark) !important;
 }
 
 .sidebar nav[role="doc-toc"] a.active,
 .sidebar nav[role="doc-toc"] a:hover {
-    border-left: 1px solid #982649;
-    color: #982649 !important;
+  border-left: 1px solid var(--secondary-dark);
+  color: var(--secondary-dark) !important;
 }
 
 .nav-link a:hoover {
-    color: #982649;
+  color: var(--secondary-dark);
 
 }
-
