@@ -24,6 +24,10 @@ jobs:
           # tinytex: true 
           version: 1.5.56
       
+      - uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1.0.0
+      
       - name: Publish to Netlify (and render)
         uses: quarto-dev/quarto-actions/publish@v2
         with:
