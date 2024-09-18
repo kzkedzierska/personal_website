@@ -1,15 +1,14 @@
 ---
 title: Scientific presentations at conferences
-summary: Posters, slides, references and any additional info about scientific presentations at conferences.
+description: "Posters, slides, references and any additional info about scientific presentations at conferences."
 
 date: 2022-06-16
-lastmod: 2022-06-16
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors:
-  - admin
+  - name: Kasia Kedzierska
 
-tags:
+categories:
   - poster
   - references
   - conference
