@@ -2,8 +2,13 @@ project:
   type: website
 website:
   title: "kasia.codes"
+  repo-url: https://github.com/kzkedzierska/new_kasia_codes
+  repo-actions:
+    - source
+    - issue
   favicon: assets/images/icon.svg
   navbar:
+    pinned: true
     logo: assets/images/logo.png
     left:
       - text: Posts
@@ -22,14 +27,17 @@ website:
   
       
   page-footer:
-    center: 
-      - text: "© 2024 Kasia Kedzierska // Made with R and Quarto"
-        icon: heart-fill
-        href: https://quarto.org
+    center: "© 2024 Kasia Kedzierska // made with ︎❤  R & [Quarto](https://quarto.org)"
+    left: ""
 
 format:
   html:
-    theme: sandstone
-    css: styles.css
+    theme: [sandstone, assets/custom_theme.scss]
     toc: true
+    pagetitle: "Kasia Kedzierska | {{< meta title >}}"
+    code-link: true
+    highlight-style: a11y
+    page-layout: article
+    smooth-scroll: true
+    link-external-newwindow: true
   

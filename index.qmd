@@ -1,5 +1,5 @@
 ---
-pagetitle: "Kasia Kedzierska | Perdonal website"
+pagetitle: "Kasia Kedzierska | About"
 about:
   id: hero-heading
   template: trestles
@@ -19,6 +19,7 @@ about:
     - icon: envelope
       text: Email
       href: mailto:mail@kasia.codes
+anchor-sections: false
 ---
 
 ::: {#hero-heading}
