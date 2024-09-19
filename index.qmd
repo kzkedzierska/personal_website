@@ -45,7 +45,7 @@ If you find anything on this website interesting or just fancy a chat about the 
 | [Summer '21]{.small-text} | Intern \@ [Novo Nordisk Research Centre Oxford](https://www.novonordisk.com/science-and-technology/research-and-technology-centres/oxford-research-centre.html) | [{{< fa location-dot title="Location" >}} Oxford, UK]{.small-text}
 | [2016 - 2018]{.small-text} | Visiting Graduate Student \@ [Ratan group, University of Virginia](https://med.virginia.edu/faculty/faculty-listing/ar7jq/) | [{{< fa location-dot title="Location" >}} Charlottesville, Virginia, USA]{.small-text} | 
 
-: {tbl-colwidths="[15,65,20]" .hover}
+: {tbl-colwidths="[15,60,20]" .hover}
 
 ## {{< fa graduation-cap title="Graduation cap" >}}  Education
 
