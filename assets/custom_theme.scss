@@ -178,6 +178,8 @@ div.quarto-about-jolla .about-link:hover {
 
 body .nav-footer {
   background-color: $dark;
+  margin-bottom: -10em;
+  padding: 1em 0;
 }
 
 .nav-footer {
@@ -229,7 +231,8 @@ body .nav-footer {
 // nav toc actions
 
 .nav-footer .toc-actions {
-  padding-top: 0;
+  // remove all padding
+  padding: 0;
 }
 
 // cookies
