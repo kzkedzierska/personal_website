@@ -1,31 +1,37 @@
 ---
-title: Nineteen Years Later
-author: Harry Potter
-date: July 31, 2016
+title: Brighten up your console
+author:
+  - name: Kasia Kedzierska
+date: 2024-09-20
 output:
   html_document:
     toc: true
     toc_float: true
 ---
 
-# Brighten up your console
+![](featured.png)
 
-## Prerequisites {.tabset}
+## Prerequisites 
 
-This should work in unix terminal, so far I used it in Ubuntu Bash and Mac Bash and Mac Zsh.
+This should work in unix terminal, so far I used it in ✓ Ubuntu Bash, ✓ Mac Bash and ✓ Mac Zsh.
 
-To sample the fortunes, you need to have `fortune` and `fortune-mod` installed.
-`fortunes` is also useful as it consist of a collection of fortunes. `lolcat` is
-a fun tool to colorize the output. `cowsay` and `ponysay` are fun tools to
- display the output in a speech/thought bubble authored by a cow or a pony,
-  or some abstract animal.
+To sample the fortunes, you need to have `fortune` and `fortune-mod` installed. `fortunes` are also useful as this package consist of a collection of fortunes. `lolcat` is
+a fun tool to colorize the output. `cowsay` and `ponysay` are fun tools to display the output in a speech/thought bubble authored by a cow or a pony, or some abstract animal.
+
+
+::: {.callout-tip collapse="true" title="Installation instructions"}
+::: {.panel-tabset}
 
 To install all prerequisites, run the following command in your terminal:
 
 ### Linux
 
 ```bash
-sudo apt install fortune fortune-mod fortunes cowsay lolcat
+sudo apt install fortune \
+  fortune-mod \
+  fortunes \
+  cowsay \
+  lolcat
 sudo snap install ponysay
 ```
 
@@ -35,59 +41,102 @@ sudo snap install ponysay
 brew tap daviderestivo/fortune-mod
 brew install fortune cowsay lolcat ponysay
 ```
+::: 
+:::
 
 ## tl;dr
 
-If you want to be greated by a fancy cow or pony to brighten up your day, add
- the following command to your `.bashrc` or `.bash_profile`. If you add it to
- `.bashrc`, you will be greeted by a cow every time you open a new terminal,
- in contrast to `.bash_profile` which will only greet you when you open a new
-  terminal window or connect to a remote server.
+If you want to be greated by a fancy cow or pony to brighten up your day, add below code to your `.bashrc`, `.bash_profile`, or Zsh equivalent.
+
+::: {.callout-note collapse="true" title="fancy_console_greeting function"}
 
 ```bash
-
-
 fancy_console_greeting() {
-  # TODO: docstring
+  # Displays a fancy greeting message in the console.
+  #
+  # (1) The function checks for required dependencies and prompts to install
+  # them if missing.
+  # (2) Then, it composes a welcome message that includes the current date
+  # and a fortune snippet.
+  # (3) The message is then displayed using either cowsay or ponysay, randomly
+  # chosen, with color effects applied by lolcat.
 
-  __depends=(cowsay fortune lolcat ponysay)
-  for __dep in ${__depends[@]}; do
-    __to_install=()
-    if ! command -v ${__dep} &> /dev/null; then
-      __to_install+=(${__dep})
-    fi
-    # if there are any dependencies to install, print a message
-    if [[ ${#__to_install[@]} -gt 0 ]]; then
-      echo "To use fancy_console_greeting, you need to \
-      install the following dependencies: ${__to_install[@]}"
-    fi
+  # Usage:
+  #   fancy_console_greeting [--verbose/-v]
+  #
+  # Options:
+  #   --verbose/-v   Enable verbose mode.
 
+
+  # Constants
+  readonly DEPENDENCIES=(cowsay fortune lolcat ponysay)
+
+  # Default settings
+  local verbose=false
+
+   # Parse arguments
+  for arg in "$@"; do
+    case $arg in
+      --verbose | -v)
+        verbose=true
+        shift
+        ;;
+      *)
+        echo "Unknown option: $arg"
+        return 1
+        ;;
+    esac
   done
 
-   # compose the message
-  __date=$(date '+%H:%M on %A, %B %d, %Y')
-  __fortune=$(fortune -s wisdom)
-  __message="Welcome!\n\n"
-  __message+="It's ${__date}.\n\n"
-  __message+="Today's wisdom:\n"
-  __message+="${__fortune}"
-  
-  # randomly choose if printing a cow or a pony
-  if [ $((RANDOM % 2)) -eq 0 ]; then
-    # sample a image from cowsay set
-    __cow=$(cowsay -l | tail -n+2 | sed 's/ /\n/g' | shuf | head -n1)
-    echo -e "${__message}" |
-      cowsay -f "${__cow}" -W 45 |
-        lolcat -F 0.01
+  # Local variables
+  local missing_deps=()
+  local dep
+  local current_date
+  local fortune_msg
+  local message
+  local cow_file
+
+  # Check for missing dependencies
+  for dep in "${DEPENDENCIES[@]}"; do
+    if ! command -v "${dep}" &>/dev/null; then
+      missing_deps+=("${dep}")
+    fi
+  done
+
+  # If there are any dependencies to install, print a message and exit
+  if [[ ${#missing_deps[@]} -gt 0 ]]; then
+    echo "To use fancy_console_greeting, you need to install the following " \
+      "dependencies: ${missing_deps[*]}"
+    return 1
+  fi
+
+  # Compose the message
+  current_date=$(date '+%H:%M on %A, %B %d, %Y')
+  fortune_msg=$(fortune -s wisdom)
+  message="Welcome!\n\n"
+  message+="It's ${current_date}.\n\n"
+  message+="Today's wisdom:\n"
+  message+="${fortune_msg}"
+
+  # Randomly choose between a cow or a pony
+  if ((RANDOM % 2 == 0)); then
+    # Sample an image from the cowsay set
+    cow_file=$(cowsay -l | tail -n +2 | tr ' ' '\n' | shuf | head -n 1)
+    echo -e "${message}" | cowsay -f "${cow_file}" -W 45 | lolcat -F 0.01
   else
-    echo -e "${__message}" |
-      ponysay --compact
+    if [ "$verbose" = true ]; then
+      echo -e "${message}" | ponysay --compact
+    else
+      echo -e "${message}" | ponysay --compact 2>/dev/null
+    fi
   fi
 }
 
 fancy_console_greeting
-
 ```
+
+or save a [script](https://github.com/kzkedzierska/new_kasia_codes/tree/main/posts/pony_in_terminal/fancy_console_greeting.sh) and run it in your terminal. 
+:::
 
 ## Walkthrough
 
@@ -104,3 +153,21 @@ $ fortune -s science
 Statistics are no substitute for judgement.
                 -- Henry Clay
 ```
+
+### Cowsay
+
+### Ponysay
+
+::: {.callout-warning title="Silencing ponysay warnings" collapse="true"}
+
+There is an instance of unescaped bakslash in the docstring of `ponysay`. Since recent versions of Python 3.10, this will raise a `SyntaxWarning`. 
+
+```bash
+/opt/homebrew/bin/ponysay/balloon.py:43: SyntaxWarning: invalid escape sequence '\-'
+/opt/homebrew/bin/ponysay/balloon.py:43: SyntaxWarning: invalid escape sequence '\-'
+```
+
+To silence the warning, by default, the script will run `ponysay` and redirect the stderr to `/dev/null`. If you want to see the warnings, you can run the script with the `--verbose` flag.
+
+A [pull request](https://github.com/erkin/ponysay/pull/313) to fix the issue has been sumitted, but it has not been merged yet. 
+:::
