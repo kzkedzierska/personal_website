@@ -38,9 +38,10 @@ format:
     theme: [sandstone, assets/custom_theme.scss]
     toc: true
     pagetitle: "Kasia Kedzierska | {{< meta title >}}"
-    highlight-style: a11y
+    highlight-style: nord
     page-layout: article
     code-link: true
     smooth-scroll: true
     link-external-newwindow: true
+
   

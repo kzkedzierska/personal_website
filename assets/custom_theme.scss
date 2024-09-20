@@ -41,12 +41,31 @@ $coyote: #826B5B;
 $ghost-white: #F7F7FF;
 $platinum: #D8DBE2;
 
-// not used
-$eerie-black: #141B0E;
+// callouts
 $lapsis-lazuli: #2D5F99;
-$powder-blue: #A9BCD0;
 $melon: #DAA49A;
+$eerie-black: #141B0E;
+$powder-blue: #A9BCD0;
+
+// other colors
 $vanilla: #E6E49F;
+
+// callout colors
+$note: $lapsis-lazuli;
+$warning: $melon;
+$tip: $dark-moss-green;
+$important: $powder-blue;
+$caution: $eerie-black;
+
+$callout-color-note: $note;
+$callout-color-warning: $warning;
+$callout-color-tip: $tip;
+$callout-color-important: $important;
+$callout-color-caution: $caution;
+
+$callout-icon-scale: 5%;
+
+
 
 $primary: $dark-moss-green;
 $secondary: $gunmetal;
