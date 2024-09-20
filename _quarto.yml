@@ -31,8 +31,7 @@ website:
       
   page-footer:
     center: "© 2024 Kasia Kedzierska // made with ︎❤  R & [Quarto](https://quarto.org)"
-    left:
-      - text: "Last updated: {{ site.time | date: '%B %d, %Y' }}"
+
 
 format:
   html:
