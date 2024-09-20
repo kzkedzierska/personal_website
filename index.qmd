@@ -26,9 +26,7 @@ toc: false
 ::: {#hero-heading}
 ## Hello! 👋
 
-I'm Kasia Kedzierska. I’ve recently graduated with a PhD in Genomic Medicine and Statistics from the University of Oxford. I work at the intersection of deep learning and computational biology, where I have a strong interest in multimodal and generative models.
-
-I'm fascinated by the potential of machine learning to transform biology and healthcare -- especially about using ML to get a better understanding of the underlying biology.
+My name is Kasia Kedzierska. I recently finished my PhD in Genomic Medicine and Statistics at the University of Oxford. I work at the intersection of deep learning and computational biology, and I'm interested in building useful models to help us understand biology and improve healthcare. I'm really fascinated by how machine learning can change the way we approach biological questions—especially when it helps us get a better grasp of what's going on beneath the surface.
 
 If you find anything on this website interesting or just fancy a chat about the intersection of **biology**, **healthcare** and **machine learning** be sure to reach out!
 :::

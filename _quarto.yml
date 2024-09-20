@@ -1,5 +1,8 @@
 project:
   type: website
+  preview: 
+    port: 4321
+    browser: true
 execute:
   freeze: auto
 website:
@@ -28,7 +31,8 @@ website:
       
   page-footer:
     center: "© 2024 Kasia Kedzierska // made with ︎❤  R & [Quarto](https://quarto.org)"
-    left: ""
+    left:
+      - text: "Last updated: {{ site.time | date: '%B %d, %Y' }}"
 
 format:
   html:

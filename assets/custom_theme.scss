@@ -77,6 +77,10 @@ div.quarto-about-trestles .about-contents {
   font-weight: 700;
 }
 
+.small-text {
+  font-size: 0.75em;
+}
+
 h1,
 h2 {
   font-size: 1.3em;
@@ -178,8 +182,7 @@ div.quarto-about-jolla .about-link:hover {
 
 body .nav-footer {
   background-color: $dark;
-  margin-bottom: -10em;
-  padding: 1em 0;
+  padding: 1em;
 }
 
 .nav-footer {
@@ -192,6 +195,11 @@ body .nav-footer {
   text-decoration: underline;
 }
 
+.nav-footer p {
+  padding: 0em;
+  margin: 0em;
+}
+
 @media screen and (max-width: 991.98px) {
 
   // make nice footer rows
@@ -199,12 +207,19 @@ body .nav-footer {
 
   .nav-footer {
     flex-direction: row;
+    margin: 0;
+    padding: 0;
+  }
+
+  // only if empty, remove the footer
+  .nav-footer-left:empty,
+  .nav-footer-right:empty {
+    display: none;
   }
 
   .nav-footer-center {
     order: 3 !important;
     flex-basis: 100%;
-    margin-top: -0.5em;
   }
 
   .nav-footer-right {
@@ -233,6 +248,13 @@ body .nav-footer {
 .nav-footer .toc-actions {
   // remove all padding
   padding: 0;
+  margin: 0;
+}
+
+.nav-footer .toc-actions ul {
+  // remove all padding
+  padding: 0;
+  margin: 0;
 }
 
 // cookies
