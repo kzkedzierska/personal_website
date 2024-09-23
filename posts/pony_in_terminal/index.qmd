@@ -1,5 +1,6 @@
 ---
-title: Brighten up your console
+title: Brighten up your console with cows and ponies!
+description: Learn how to brighten your console with a fortune told by a cow or a colorful pony.
 author:
   - name: Kasia Kedzierska
 date: 2024-09-20
@@ -7,24 +8,36 @@ output:
   html_document:
     toc: true
     toc_float: true
+categories:
+  - fun
+  - terminal
+  - notes
+  - howto
 ---
 
-![](featured.png)
+Looking to add a splash of fun to your command line? In this post, I'll show you how to brighten up your console with a fortune told by a cow or a colorful pony! We'll use a simple Bash function to display a random fortune, colorize it, and present it in a speech bubble delivered by a cow or a pony.
+
+![](figs/featured.png){width=80% fig-alt="Screenshot of terminal session with a graphical welcome message" fig-align="center"}
 
 ## Prerequisites 
 
 This should work in unix terminal, so far I used it in ✓ Ubuntu Bash, ✓ Mac Bash and ✓ Mac Zsh.
 
-To sample the fortunes, you need to have `fortune` and `fortune-mod` installed. `fortunes` are also useful as this package consist of a collection of fortunes. `lolcat` is
-a fun tool to colorize the output. `cowsay` and `ponysay` are fun tools to display the output in a speech/thought bubble authored by a cow or a pony, or some abstract animal.
+You'll need the following programs installed:
 
+- `fortune` and `fortune-mod`: For sampling random fortunes.
+- `fortunes` Provides a collection of fortune cookies.
+- `cowsay` and `ponysay` To display messages in speech bubbles authored by cows or ponies.
+- `lolcat` A fun tool to colorize your terminal output.
 
 ::: {.callout-tip collapse="true" title="Installation instructions"}
-::: {.panel-tabset}
 
 To install all prerequisites, run the following command in your terminal:
 
+::: {.panel-tabset}
+
 ### Linux
+
 
 ```bash
 sudo apt install fortune \
@@ -136,27 +149,6 @@ fancy_console_greeting
 ```
 
 or save a [script](https://github.com/kzkedzierska/new_kasia_codes/tree/main/posts/pony_in_terminal/fancy_console_greeting.sh) and run it in your terminal. 
-:::
-
-## Walkthrough
-
-### Fortunes
-
-To display a random fortune, run the following command in your terminal:
-
-```bash
-fortune
-```
-
-```console
-$ fortune -s science
-Statistics are no substitute for judgement.
-                -- Henry Clay
-```
-
-### Cowsay
-
-### Ponysay
 
 ::: {.callout-warning title="Silencing ponysay warnings" collapse="true"}
 
@@ -171,3 +163,182 @@ To silence the warning, by default, the script will run `ponysay` and redirect t
 
 A [pull request](https://github.com/erkin/ponysay/pull/313) to fix the issue has been sumitted, but it has not been merged yet. 
 :::
+:::
+
+## Detailed walkthrough
+
+Let's dive deeper into how each component works.
+
+### Fortunes and sayings in the termianl
+
+The `fortune` command displays a random fortune from a collection of fortune cookies. The `fortune-mod` package provides a collection of fortune cookies that can be displayed using the `fortune` command. `fortune`, created by Ken Arnold, dates back to the 1970s and is a fun way to display a random saying or quote in the terminal.
+
+```bash
+$ fortune
+An investment in knowledge always pays the best interest.
+		-- Benjamin Franklin
+```
+
+You can, for example select a subject of the requested fortunes.
+
+```bash
+$ fortune science
+Statistics are no substitute for judgement.
+                -- Henry Clay
+```
+
+To see all available subjects of fortunes you can run `fortune -f` that will list all available files from which fortunes can be sourced. The available files can differ between the sources of packages. 
+
+### Lolcat - colorize your terminal  
+
+Inspired by the "nyan cat" meme, lolcat was created to add rainbow colors to your terminal output. To colorize the output of a command, simply pipe it to `lolcat`.
+
+```bash
+$ echo 'Hello, world!' | lolcat
+```
+
+![](figs/lolcat.png){width=80% fig-alt="Screenshot of terminal session with a colorful 'Hello, world!' message" fig-align="center"}
+
+You can control the colors of the output with the `-F/--freq` flag with higher values resulting in more colors and lower values in monochromous output.
+
+With an `-a` flag you can animate the output (controlling the duration of the animation with `-d` flag and the speed with `-s` flag).
+
+![](figs/lolcat.gif){width=70% fig-alt="Animated output of lolcat" fig-align="center"}
+
+### Cowsay - let the cow deliver your message
+
+Created by Tony Monroe in 1999, `cowsay` is a program that generates ASCII pictures of a cow with a message. The cow can say (`cowsay`) or think (`cowthink`) the message, and you can choose from a variety of cow designs.
+
+```bash
+$ cowsay 'Hello there!'
+ ______________
+< Hello there! >
+ --------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
+There are sveral ways we can modify how the cow would look like. For example, here's the excerpt from the `cosway` manual (accessible via `man cowsay`):  
+
+> The -b option initiates Borg mode; -d causes the cow to appear dead; -g invokes greedy mode; -p causes a state of paranoia to come over the cow; -s makes the cow appear thoroughly stoned; -t yields a tired cow; -w is somewhat the opposite of -t, and initiates wired mode; -y brings on the cow's youthful appearance.
+
+We're not limited to cows either -- there are some figures to choose from. 
+
+```bash
+$ cowsay -f moofasa 'Look, Simba. Everything the light touches is our kingdom.'
+ ___________________________________
+/ Look, Simba. Everything the light \
+\ touches is our kingdom.           /
+ -----------------------------------
+       \    ____
+        \  /    \
+          | ^__^ |
+          | (oo) |______
+          | (__) |      )\/\
+           \____/|----w |
+                ||     ||
+
+	         Moofasa
+```
+
+::: {.callout-note collapse="true" title="Choose your other ASCII cow"}
+
+To list all available cows, run the following command:
+
+```bash
+$ cowsay -l 
+Cow files in /path/to/cows:
+beavis.zen blowfish bong bud-frogs bunny cheese cower daemon default dragon
+dragon-and-cow elephant elephant-in-snake eyes flaming-sheep ghostbusters
+head-in hellokitty kiss kitty koala kosh luke-koala meow milk moofasa moose
+mutilated ren satanic sheep skeleton small stegosaurus stimpy supermilker
+surgery three-eyes turkey turtle tux udder vader vader-koala www
+```
+
+And to select a specific cow, use the `-f` flag followed by the cow's name:
+
+```bash
+$ cowsay -f tux 'Hello there!'
+ ______________
+< Hello there! >
+ --------------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+```
+
+And to randomly select a cow, you can use the following:
+
+```bash
+cowsay -f $(cowsay -l | tail -n +2 | tr ' ' '\n' | shuf -n 1) 'Hello'
+ _______
+< Hello >
+ -------
+  \            .    .     .
+   \      .  . .     `  ,
+    \    .; .  : .' :  :  : .
+     \   i..`: i` i.i.,i  i .
+      \   `,--.|i |i|ii|ii|i:
+           UooU\.'@@@@@@`.||'
+           \__/(@@@@@@@@@@)'
+                (@@@@@@@@)
+                `YY~~~~YY'
+                 ||    ||
+```
+
+:::
+
+### Ponysay - a modern twist on cowsay
+
+Ponysay is a fun tool that is similar to cowsay, but instead of a cow, it uses a pony from the [My Little Pony series](https://en.wikipedia.org/wiki/My_Little_Pony).
+
+
+To have a pony say a message, you can simply use the `ponysay` command:
+
+```bash
+$ fortune | ponysay
+```
+
+::: {.callout-warning title="SyntaxWarning with ponysay" collapse="true"}
+
+There is an instance of unescaped bakslash in the docstring of `ponysay`. Since recent versions of Python 3.10, this will raise a `SyntaxWarning`. 
+
+```bash
+/opt/homebrew/bin/ponysay/balloon.py:43: SyntaxWarning: invalid escape sequence '\-'
+/opt/homebrew/bin/ponysay/balloon.py:43: SyntaxWarning: invalid escape sequence '\-'
+```
+
+To silence the warning, you can redirect the stderr to `/dev/null`. If you want to see the warnings, you can run the script with the `--verbose` flag.
+
+A [pull request](https://github.com/erkin/ponysay/pull/313) to fix the issue has been sumitted, but it has not been merged yet. 
+:::
+
+![](figs/ponysay.png){width=80% fig-alt="Screenshot of terminal session with a graphical welcome message" fig-align="center"}
+
+You can also select a specific pony to say the message:
+
+```bash
+$ fortune -s wisdom | ponysay -F owl 2>/dev/null
+```
+
+![](figs/ponysay_owl.png){width=80% fig-alt="Screenshot of terminal session in which owl says 'Ninety percent of everything is crap.' -- Theodore Sturgeon" fig-align="center"}
+
+To list all available ponies you can specify the `-A` flag to list all ponies, or `-l` to list only the MLP ponies.
+
+To list all options of `ponysay`, you can run `ponysay --help`.
+
+And if you're dedicated enough, you can even create your own pony! Check out the _Providing ponies_ section of the [ponysay documentation](https://github.com/erkin/ponysay/blob/master/ponysay.pdf) for more information.
+
+## Conclusion
+By combining these fun command-line tools, you can make your terminal sessions more enjoyable. Whether you're a fan of cows, ponies, or just colorful text, these commands offer a delightful way to personalize your console.
+
+Happy hacking!
