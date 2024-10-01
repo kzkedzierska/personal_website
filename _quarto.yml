@@ -3,6 +3,8 @@ project:
   preview: 
     port: 4321
     browser: true
+  render: 
+    - cv/index.html
 execute:
   freeze: auto
 website:

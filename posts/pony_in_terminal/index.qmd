@@ -4,6 +4,7 @@ description: Learn how to brighten your console with a fortune told by a cow or 
 author:
   - name: Kasia Kedzierska
 date: 2024-09-20
+date-modified: last-modified
 output:
   html_document:
     toc: true
@@ -338,7 +339,51 @@ To list all options of `ponysay`, you can run `ponysay --help`.
 
 And if you're dedicated enough, you can even create your own pony! Check out the _Providing ponies_ section of the [ponysay documentation](https://github.com/erkin/ponysay/blob/master/ponysay.pdf) for more information.
 
+## Putting it all together
+
+To comopose the message, I will take the current date and a random fortune message. 
+
+```bash
+current_date=$(date '+%H:%M on %A, %B %d, %Y')
+fortune_msg=$(fortune -s wisdom)
+
+message="Welcome! \n\nIt's ${current_date}. \n\nToday's wisdom: \n${fortune_msg}"
+```
+
+The message will look like this:
+
+```bash
+$ echo -e "${message}"
+Welcome! 
+
+It's 09:28 on Tuesday, September 24, 2024. 
+
+Today's wisdom: 
+You climb to reach the summit, but once there, discover that all roads
+lead down.
+                -- Stanislaw Lem, "The Cyberiad"
+```
+
+Then, I will display the message using either `cowsay` or `ponysay`, randomly chosen, with color effects applied by `lolcat`.
+
+```bash
+# Randomly choose between a cow or a pony
+if ((RANDOM % 2 == 0)); then
+  # Sample an image from the cowsay set
+  cow_file=$(cowsay -l | tail -n +2 | tr ' ' '\n' | shuf | head -n 1)
+  echo -e "${message}" | cowsay -f "${cow_file}" -W 45 | lolcat -F 0.01
+else
+  if [ "$verbose" = true ]; then
+    echo -e "${message}" | ponysay --compact
+  else
+    echo -e "${message}" | ponysay --compact 2>/dev/null
+  fi
+fi
+```
+
+
 ## Conclusion
+
 By combining these fun command-line tools, you can make your terminal sessions more enjoyable. Whether you're a fan of cows, ponies, or just colorful text, these commands offer a delightful way to personalize your console.
 
 Happy hacking!
