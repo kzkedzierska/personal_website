@@ -3,13 +3,12 @@ project:
   preview: 
     port: 4321
     browser: true
-  render: 
-    - cv/index.html
+
 execute:
   freeze: auto
 website:
   title: "kasia.codes"
-  repo-url: https://github.com/kzkedzierska/new_kasia_codes
+  repo-url: https://github.com/kzkedzierska/personal_website
   repo-actions: [source, issue]
   favicon: assets/images/icon.svg
   navbar:
