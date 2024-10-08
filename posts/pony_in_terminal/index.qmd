@@ -318,7 +318,7 @@ There is an instance of unescaped bakslash in the docstring of `ponysay`. Since 
 /opt/homebrew/bin/ponysay/balloon.py:43: SyntaxWarning: invalid escape sequence '\-'
 ```
 
-To silence the warning, you can redirect the stderr to `/dev/null`. If you want to see the warnings, you can run the script with the `--verbose` flag.
+To silence the warning, you can redirect the stderr to `/dev/null`.
 
 A [pull request](https://github.com/erkin/ponysay/pull/313) to fix the issue has been sumitted, but it has not been merged yet. 
 :::
