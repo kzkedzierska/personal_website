@@ -20,7 +20,7 @@ website:
         href: posts
       - text: Teaching
         icon: laptop-fill
-        href: talks
+        href: talk
       - text: Photography
         icon: camera-fill
         href: photography.qmd
