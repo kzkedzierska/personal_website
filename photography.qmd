@@ -14,38 +14,38 @@ Shot in Boston, July 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Colo
 
 ::: {layout="[[1, 1, 1]]"}
 
-![](./assets/photography/boston/goose.jpg){group="boston"}
+![](./assets/photography/35/praktica_bx20/23.07__boston_goose__color_plus.jpg){group="boston"}
 
 
-![](./assets/photography/boston/man_on_the_horse.jpg){group="boston"}
+![](./assets/photography/35/praktica_bx20/23.07__boston_man_on_the_horse__color_plus.jpg){group="boston"}
 
 
-![](./assets/photography/boston/snowflake.jpg){group="boston"}
+![](./assets/photography/35/praktica_bx20/23.07__boston_snowflake__color_plus.jpg){group="boston"}
 :::
 
 Shot in New York, May 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Color Plus, ISO 200.
 
 ::: {layout="[[1, 1, 1], [1, 1, 1]]"}
-![](./assets/photography/nyc/01_manhattan.jpg){group="nyc"}
+![](./assets/photography/35/praktica_bx20/23.05__new_york_manhattan_skyline__color_plus.jpg){group="nyc"}
 
-![](./assets/photography/nyc/02_statue_o_liberty.jpg){group="nyc"}
+![](./assets/photography/35/praktica_bx20/23.05__new_york_statue_of_liberty__color_plus.jpg){group="nyc"}
 
-![](./assets/photography/nyc/03_cshl.jpg){group="nyc"}
+![](./assets/photography/35/praktica_bx20/23.05__cold_spring_harbor_laboratory__color_plus.jpg){group="nyc"}
 
-![](./assets/photography/nyc/04_highline.jpg){group="nyc"}
+![](./assets/photography/35/praktica_bx20/23.05__new_york_highline__color_plus.jpg.jpg){group="nyc"}
 
-![](./assets/photography/nyc/05_banbury.jpg){group="nyc"}
+![](./assets/photography/35/praktica_bx20/23.05__cshl_banbury__color_plus.jpg.jpg){group="nyc"}
 :::
 
 
 Shot in Oxford, October 2022 with Praktica BX20 w/ Pentacon 50mm F1.8 on Lomography Metropolis, ISO 200.
 
 ::: {layout="[[1, 1, 1]]"}
-![](./assets/photography/oxford/2022_october_praktica_metropolis_1.jpg){group="oxford"}
+![](./assets/photography/35/praktica_bx20/22.10__oxford_radcliffe_camera__metropolis.jpg){group="oxford"}
 
-![](./assets/photography/oxford/2022_october_praktica_metropolis_10.jpg){group="oxford"}
+![](./assets/photography/35/praktica_bx20/22.10__oxford_canal__metropolis.jpg){group="oxford"}
 
-![](./assets/photography/oxford/2022_october_praktica_metropolis_8.jpg){group="oxford"}
+![](./assets/photography/35/praktica_bx20/22.10__oxford_magdalen_college__metropolis.jpg){group="oxford"}
 
 :::
 
@@ -55,11 +55,11 @@ Shot in Warsaw/Jablonna, September 2022 with Praktica BX20 w/ Pentacon 50mm F1.8
 
 ::: {layout="[[1, 1, 1]]"}
 
-![](./assets/photography/jablonna/53420004.JPG){group="jablonna"}
+![](./assets/photography/35/praktica_bx20/22.09__warsaw_park_skaryszewski__color_plus.JPG){group="jablonna"}
 
 
-![](./assets/photography/jablonna/53420012.JPG){group="jablonna"}
+![](./assets/photography/35/praktica_bx20/22.09__jablonna_palac__color_plus.JPG){group="jablonna"}
 
 
-![](./assets/photography/jablonna/53420013.JPG){group="jablonna"}
+![](./assets/photography/35/praktica_bx20/22.09__jablonna_palac_exterior__color_plus.JPG){group="jablonna"}
 :::
