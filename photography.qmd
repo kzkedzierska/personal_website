@@ -32,9 +32,9 @@ Shot in New York, May 2023 with Praktica BX20 w/ Pentacon 50mm F1.8 on Kodak Col
 
 ![](./assets/photography/35/praktica_bx20/23.05__cold_spring_harbor_laboratory__color_plus.jpg){group="nyc"}
 
-![](./assets/photography/35/praktica_bx20/23.05__new_york_highline__color_plus.jpg.jpg){group="nyc"}
+![](./assets/photography/35/praktica_bx20/23.05__new_york_highline__color_plus.jpg){group="nyc"}
 
-![](./assets/photography/35/praktica_bx20/23.05__cshl_banbury__color_plus.jpg.jpg){group="nyc"}
+![](./assets/photography/35/praktica_bx20/23.05__cshl_banbury__color_plus.jpg){group="nyc"}
 :::
 
 
@@ -76,9 +76,9 @@ This was the first roll of film I shot with the Lomomatic 110. I used Lomography
 
 ![Westminster, London](./assets/photography/110/lomomatic/24.07__london_westminster__tiger.jpg){group="first_roll"}
 
-![Tallinn TV Tower, Estonia](./assets/photography/110/lomomatic/24.09__tallinn_teletorn__tiger.jpg){group="first_roll"}
-
 ![City centre, Oxford](./assets/photography/110/lomomatic/24.07__oxford__tiger.jpg){group="first_roll"}
+
+![Tallinn TV Tower, Estonia](./assets/photography/110/lomomatic/24.09__tallinn_teletorn__tiger.jpg){group="first_roll"}
 
 ![Sheldonian Theatre, Oxford](./assets/photography/110/lomomatic/24.07__oxford_sheldonian__tiger.jpg){group="first_roll"}
 
