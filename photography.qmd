@@ -63,3 +63,23 @@ Shot in Warsaw/Jablonna, September 2022 with Praktica BX20 w/ Pentacon 50mm F1.8
 
 ![](./assets/photography/35/praktica_bx20/22.09__jablonna_palac_exterior__color_plus.JPG){group="jablonna"}
 :::
+
+## 110 
+
+This film is quite interesting, it's quite small and the photos are quite grainy. I have two cameras that use this film: [Kodak Tele-Ektralite 600](http://camera-wiki.org/wiki/Kodak_Tele-Ektralite_600) (vintage) and the new [Lomomatic 110](https://shop.lomography.com/eu/cameras/lomomatic-110-glass-lens-camera) from Lomography.
+
+This was the first roll of film I shot with the Lomomatic 110. I used Lomography Tiger, ISO 200 film -- I quited liked how the photos turned out, the colors are quite interesting. I shot this in between July and September 2024 in Warsaw, Oxford, London, Tallinn, and Muhu Island, Estonia. 
+
+::: {layout="[[1, 1, 1], [1, 1, 1]]"}
+
+![Euro quarter finals (Spain-Germany) screened at the Riverbank Pub in Warsaw](./assets/photography/110/lomomatic/24.07__warsaw_riverbank__tiger.jpg){group="first_roll"}
+
+![Westminster, London](./assets/photography/110/lomomatic/24.07__london_westminster__tiger.jpg){group="first_roll"}
+
+![Tallinn TV Tower, Estonia](./assets/photography/110/lomomatic/24.09__tallinn_teletorn__tiger.jpg){group="first_roll"}
+
+![City centre, Oxford](./assets/photography/110/lomomatic/24.07__oxford__tiger.jpg){group="first_roll"}
+
+![Sheldonian Theatre, Oxford](./assets/photography/110/lomomatic/24.07__oxford_sheldonian__tiger.jpg){group="first_roll"}
+
+![Windmill in Muhu Museum, Muhu Island, Estonia](./assets/photography/110/lomomatic/24.09__muhu_museum__tiger.jpg){group="first_roll"}
