@@ -8,6 +8,7 @@ execute:
   freeze: auto
 website:
   title: "kasia.codes"
+  google-analytics: 'G-3N9XLRYSKT'
   repo-url: https://github.com/kzkedzierska/personal_website
   repo-actions: [source, issue]
   favicon: assets/images/icon.svg
