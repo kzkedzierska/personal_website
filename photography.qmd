@@ -9,21 +9,43 @@ In my spare time I like to take photos with one of the old cameras. I quite enjo
 
 I decided to post the photos on my website to make myself choose the shots I like best and keep them for my records. 
 
-## 120 Film – Medium Format Film
+## 120 Film – medium format film
 
 120 film is about 60 mm wide and comes in different frame lengths, such as 6 x 4.5 cm, 6 x 6 cm, 6 x 7 cm, and 6 x 9 cm, depending on the camera. The film is wound on a spool and comes in a light-tight paper backing. The film was introduced in 1901 by Kodak and was the most popular film format for professional photographers until the 1960s.
 
+I wanted to try medium format film for a while -- I got a [Moskva 5](https://camerapedia.fandom.com/wiki/Moskva-5) but was so intimidated by it that it took me almost 2 years to finally load the film and take some photos. I loved the results but the camera is quite heavy and bulky so I decided to get a Holga 120 GCFN, which is light, fun, plastic camera with a glass lens and color flash.
 
+### Holga 120 GCFM
+
+This beautiful pink camera has gotten me so many compliments in its short tenure with me. I shot my first roll of film with it in Warsaw, Poland in November 2024. Pretty happy with the results, the colors are quite nice and the photos are sharp with the classic Holga vignetting.
+
+::: {layout="[[1, 1, 1], [1, 1, 1]]"}
+
+![Warsaw skyline as viewed from the new walking bridge](./assets/photography/120/holga_120gcfn/2024.11__holga_test_roll__lomography_color92-1.jpg){group="holga-1"}
+
+![View of the Slasko-Dabrowski bridge and banks of Vistula river, Warsaw](./assets/photography/120/holga_120gcfn/2024.11__holga_test_roll__lomography_color92-2.jpg){group="holga-1"}
+
+![Kościuszko Infantry Division Memorial, Warsaw](./assets/photography/120/holga_120gcfn/2024.11__holga_test_roll__lomography_color92-3.jpg){group="holga-1"}
+
+![Lenino battle memorial, Warsaw](./assets/photography/120/holga_120gcfn/2024.11__holga_test_roll__lomography_color92-4.jpg){group="holga-1"}
+
+![Stop sign at the cementary, Poland](./assets/photography/120/holga_120gcfn/2024.11__holga_test_roll__lomography_color92-5.jpg){group="holga-1"}
+
+:::
 
 ## 35 mm - most popular film format
 
 This is the most popular film format, still frequently used by analog enthusiast. The size of the standard frame withing the film is 24x36mm. However, there are cameras that can either shoot two frames in one shot or shoot panoramic photos spanning multiple frames. It was introduced in 1934 by Kodak and became the most popular film format in the 20th century. 
 
 I have a few cameras that use this film, among others:
-- [Praktica BX20](http://camera-wiki.org/wiki/Praktica_BX20) (vintage) -- my favorite camera. We've been through a lot together, and I thought it died couple of times, but it always came back to life resulting in unexpected, fun double exposures.  
+
+- [Praktica BX20](http://camera-wiki.org/wiki/Praktica_BX20) (vintage) -- my favorite camera. We've been through a lot together, and I thought it died couple of times, but it always came back to life resulting in unexpected, fun double exposures.   
+
 - [Minolta Dynax 404si](https://www.mhohner.de/sony-minolta/onebody/404si) (automatic SLR from 1999) -- it's a great camera for beginners, it's easy to use and has a lot of automatic settings; I take it with me if I need to take photos quickly or if I want to share the camera with someone else.
+
 - [Lomo Smena 8m](https://microsites.lomography.com/smena/smena8m/) (vintage, one of the most manufactured plastic camera, produced in the Soviet Union).
-- [Sprocket Rocket]() [review on Matt loves cameras](https://mattlovescameras.com/lomography-sprocket-rocket-review-with-pictures/)
+
+- [Sprocket Rocket](https://microsites.lomography.com/sprocketrocket/) (a fun, plastic, camera made by Lomography) -- read its [review on Matt loves cameras](https://mattlovescameras.com/lomography-sprocket-rocket-review-with-pictures/) -- this is a camera designs for fun and experimentation -  with it you can take panoramic photos with exposed sprocket holes.
 
 Also being Polish I had few Zenit cameras, but there are pretty heavy so I don't use them that often.
 
@@ -90,9 +112,11 @@ This film is quite interesting, it's quite small with height of the film limited
 
 I have two cameras that use this film: [Kodak Tele-Ektralite 600](http://camera-wiki.org/wiki/Kodak_Tele-Ektralite_600) (vintage) and the new [Lomomatic 110](https://shop.lomography.com/eu/cameras/lomomatic-110-glass-lens-camera) from Lomography.
 
-### Lommoatic 110 - first roll (Lomo Tiger, ISO 200)
+### Lommoatic 110
 
-This was the first roll of film I shot with the Lomomatic 110. I used Lomography Tiger, ISO 200 film -- I quited liked how the photos turned out, the colors are quite interesting. I shot this in between July and September 2024 in Warsaw, Oxford, London, Tallinn, and Muhu Island, Estonia. 
+This was the first roll of film I shot with the Lomomatic 110. I used Lomography Tiger, ISO 200 film -- I quited liked how the photos turned out, the colors are quite interesting. 
+
+<!-- I shot this in between July and September 2024 in Warsaw, Oxford, London, Tallinn, and Muhu Island, Estonia. -->
 
 ::: {layout="[[1, 1, 1], [1, 1, 1]]"}
 
