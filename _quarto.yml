@@ -3,7 +3,8 @@ project:
   preview: 
     port: 4321
     browser: true
-
+resources: 
+  - resources
 execute:
   freeze: auto
 website:
