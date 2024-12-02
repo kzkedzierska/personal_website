@@ -1,0 +1,46 @@
+---
+title: Advent of Code 2024
+description: "Advent of Code: Solving coding puzzles to help elves save Christmas!"
+author:
+  - name: Kasia Kedzierska
+date: 2024-12-02
+date-modified: last-modified
+image: featured.jpg
+output:
+  html_document:
+    toc: true
+    toc_float: true
+categories:
+  - fun
+  - coding
+  - advent-of-code
+  - puzzles
+comments:
+  giscus:
+    repo: kzkedzierska/personal_website
+---
+
+It's that time of the year again—time to solve programming puzzles and help elves save Christmas! 🎄🎅
+
+Advent of Code (AoC) is an annual event where programmers tackle daily coding challenges leading up to Christmas. Each day brings a new puzzle that tests logic, problem-solving, and programming skills. Whether you're a beginner or a seasoned developer, it's a fun and festive way to hone your skills!
+
+<div style="text-align: center;">
+<img src="featured.jpg" alt="Advent of Code 2024" style="width: 50%;"/>
+</div>
+
+This year I am solving the puzzles in Python and writing down the solutions in blog style posts using Quarto flavored Jupyter Notebooks. Usually, I don't have time to solve all the puzzles, especially when the work gets busy, the puzzles get harder and it's time to prepare for Christmas. But I will try my best to solve as many as possible. Who knows -- maybe this year I will manage to solve them all! 🤞
+
+## Puzzles solved so far
+
+* ⭐ ⭐ Day 1: Historian Hysteria: [post](/resources/aoc/2024/Day01.html) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/Day01.ipynb).  
+* ⭐ ⭐ Day 2: Red-Nosed Reports: [post](/resources/aoc/2024/Day02.html) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/Day02.ipynb).    
+
+Stay tuned for more puzzles and solutions! 🎁 And if you want to check my other solutions to previous editions you can check them out [here](https://github.com/kzkedzierska/aoc?tab=readme-ov-file).
+ 
+## Give it a try!
+
+If you're interested in solving the puzzles yourself, head over to the [Advent of Code website](https://adventofcode.com/). You can start at any time and work at your own pace. It's a great way to challenge yourself, learn new things, and have fun during the holiday season. Happy coding! 🎄🎅
+
+## Appreciation for the author
+
+Advent of Code is created by [Eric Wastl](https://was.tl/). I am very grateful for his work and dedication to creating these puzzles every year. It's a great way to learn new programming skills, practice problem-solving, have fun, and feel like one is part of an interesting community. The latter being especially important for me during my lonely Corona PhD and working remotely. Thank you! 🙏
