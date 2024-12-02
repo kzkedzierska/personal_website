@@ -454,3 +454,7 @@ div.quarto-post .listing-categories .listing-category:hover,
     width: 100%;
   }
 }
+
+#title-block-header.quarto-title-block.default .quarto-title-meta {
+  grid-template-columns: repeat(3, 1fr);
+}
