@@ -6,18 +6,21 @@ image: ssh.png
 categories:
   - notes
   - howto
+comments:
+  giscus:
+    repo: kzkedzierska/personal_website
 ---
 
 This is a simple tutorial on how to set up key verification for a secure connection. It is suppose to help actually setting up the verification, to learn more about the SSH key I recommend this page on [Arch Linux Wiki](https://wiki.archlinux.org/index.php/SSH_keys).
 
 ## Prerequisites
 
-**Required**
-* ssh-keygen
-* ssh-copy-id
+**Required**  
+* ssh-keygen  
+* ssh-copy-id  
 
-**Helpful** - necessary to copy the key to github account.
-* xclip
+**Helpful** - necessary to copy the key to github account.  
+* xclip   
 
 ```bash
 sudo apt install ssh-keygen ssh-copy-id

@@ -14,6 +14,9 @@ categories:
   - terminal
   - notes
   - howto
+comments:
+  giscus:
+    repo: kzkedzierska/personal_website
 ---
 
 Looking to add a splash of fun to your command line? In this post, I'll show you how to brighten up your console with a fortune told by a cow or a colorful pony! We'll use a simple Bash function to display a random fortune, colorize it, and present it in a speech bubble delivered by a cow or a pony.
