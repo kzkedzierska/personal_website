@@ -33,7 +33,8 @@ This year I am solving the puzzles in Python and writing down the solutions in b
 ## Puzzles solved so far
 
 * ⭐ ⭐ Day 1: Historian Hysteria: [post](/resources/aoc/2024/Day01.html) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/Day01.ipynb).  
-* ⭐ ⭐ Day 2: Red-Nosed Reports: [post](/resources/aoc/2024/Day02.html) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/Day02.ipynb).    
+* ⭐ ⭐ Day 2: Red-Nosed Reports: [post](/resources/aoc/2024/Day02.html) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/Day02.ipynb).   
+* ⭐ ⭐ Day 3: Mull It Over : [post](/resources/aoc/2024/Day03.html) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/Day03.ipynb).   
 
 Stay tuned for more puzzles and solutions! 🎁 And if you want to check my other solutions to previous editions you can check them out [here](https://github.com/kzkedzierska/aoc?tab=readme-ov-file).
  
