@@ -6,7 +6,7 @@ project:
 resources: 
   - resources
 execute:
-  freeze: auto
+  freeze: true
 website:
   title: "kasia.codes"
   google-analytics: 'G-3N9XLRYSKT'
