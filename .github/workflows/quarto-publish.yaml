@@ -28,6 +28,9 @@ jobs:
         with:
           cache-version: 1.0.0
       
+      - name: Fix timestamps
+        run:  bash .github/scripts/fix-timestamps
+      
       - name: Publish to Netlify (and render)
         uses: quarto-dev/quarto-actions/publish@v2
         with:
