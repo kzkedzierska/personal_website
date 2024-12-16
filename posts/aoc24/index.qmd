@@ -32,12 +32,16 @@ This year I am solving the puzzles in Python and writing down the solutions in b
 
 ## Puzzles solved so far
 
-* ⭐ ⭐ Day 1: Historian Hysteria: [post](/resources/aoc/2024/day_01) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_01/notebook.ipynb).  
-* ⭐ ⭐ Day 2: Red-Nosed Reports: [post](/resources/aoc/2024/day_02) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_02/notebook.ipynb).   
-* ⭐ ⭐ Day 3: Mull It Over: [post](/resources/aoc/2024/day_03) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_03/notebook.ipynb).  
-* ⭐ ⭐ Day 4: Ceres Search: [post](/resources/aoc/2024/day_04) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_04/notebook.ipynb).  
-* ⭐ ⭐ Day 5: Print Queue: [post](/resources/aoc/2024/day_05) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_05/notebook.ipynb).   
+* ⭐ ⭐ [Day 1](https://adventofcode.com/2024/day/1): Historian Hysteria: [post](/resources/aoc/2024/day_01) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_01/notebook.ipynb).  
+* ⭐ ⭐ [Day 2](https://adventofcode.com/2024/day/2): Red-Nosed Reports: [post](/resources/aoc/2024/day_02) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_02/notebook.ipynb).   
+* ⭐ ⭐ [Day 3](https://adventofcode.com/2024/day/3): Mull It Over: [post](/resources/aoc/2024/day_03) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_03/notebook.ipynb).  
+* ⭐ ⭐ [Day 4](https://adventofcode.com/2024/day/4): Ceres Search: [post](/resources/aoc/2024/day_04) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_04/notebook.ipynb).  
+* ⭐ ⭐ [Day 5](https://adventofcode.com/2024/day/5): Print Queue: [post](/resources/aoc/2024/day_05) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_05/notebook.ipynb).
+* ⭐  [Day 6](https://adventofcode.com/2024/day/6): Guard Gallivant: post & notebook coming soon. 
+* ⭐ ⭐ [Day 7](https://adventofcode.com/2024/day/7): Bridge Repair: post & notebook coming soon. 
+* ⭐ ⭐ [Day 9](https://adventofcode.com/2024/day/9): Disk Fragmenter: [post](/resources/aoc/2024/day_09) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_09/notebook.ipynb). 
 
+*Note: As can be seen, I am now playing catch-up with the puzzles as I just started a new job in a new country so I am a bit behind. Still optimistic I will be able to catch up tho 🤞*
 
 Stay tuned for more puzzles and solutions! 🎁 And if you want to check my other solutions to previous editions you can check them out [here](https://github.com/kzkedzierska/aoc?tab=readme-ov-file).
  
