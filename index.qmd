@@ -39,7 +39,8 @@ If you find anything on this website interesting or just fancy a chat about the 
 
 | | | |   
 |:-----|:------|------:|  
-| [Feb '24 - present]{.small-text} | Deep Learning Researcher \@ [DeepLife](https://www.deeplife.co/) | [{{< fa location-dot title="Location" >}} Paris, France (Remote)]{.small-text}
+| [Dec '24 - present]{.small-text} | AI Research Scientist \@ [Allen Institute](https://alleninstitute.org/) | [{{< fa location-dot title="Location" >}} Seattle, WA, USA {.small-text}
+| [Feb '24 - Nov '24']{.small-text} | Deep Learning Researcher \@ [DeepLife](https://www.deeplife.co/) | [{{< fa location-dot title="Location" >}} Paris, France (Remote)]{.small-text}
 | [Summer '23]{.small-text} | Intern \@ [Microsoft Research New England Lab](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/) | [{{< fa location-dot title="Location" >}} Cambridge, Massachusetts, USA]{.small-text}
 | [Summer '21]{.small-text} | Intern \@ [Novo Nordisk Research Centre Oxford](https://www.novonordisk.com/science-and-technology/research-and-technology-centres/oxford-research-centre.html) | [{{< fa location-dot title="Location" >}} Oxford, UK]{.small-text}
 | [2016 - 2018]{.small-text} | Visiting Graduate Student \@ [Ratan group, University of Virginia](https://med.virginia.edu/faculty/faculty-listing/ar7jq/) | [{{< fa location-dot title="Location" >}} Charlottesville, Virginia, USA]{.small-text} | 
