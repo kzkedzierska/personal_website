@@ -38,9 +38,10 @@ This year I am solving the puzzles in Python and writing down the solutions in b
 * ⭐ ⭐ [Day 4](https://adventofcode.com/2024/day/4): Ceres Search: [post](/resources/aoc/2024/day_04) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_04/notebook.ipynb).  
 * ⭐ ⭐ [Day 5](https://adventofcode.com/2024/day/5): Print Queue: [post](/resources/aoc/2024/day_05) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_05/notebook.ipynb).
 * ⭐  [Day 6](https://adventofcode.com/2024/day/6): Guard Gallivant: post & notebook coming soon. 
-* ⭐ ⭐ [Day 7](https://adventofcode.com/2024/day/7): Bridge Repair: post & notebook coming soon. 
+* ⭐ ⭐ [Day 7](https://adventofcode.com/2024/day/7): Bridge Repair: post & notebook coming soon.   
 * ⭐ ⭐ [Day 9](https://adventofcode.com/2024/day/9): Disk Fragmenter: [post](/resources/aoc/2024/day_09) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_09/notebook.ipynb).  
 * ⭐ ⭐ [Day 16](https://adventofcode.com/2024/day/16): Reindeer Maze: [post](/resources/aoc/2024/day_16) & [notebook](https://github.com/kzkedzierska/aoc/blob/main/2024/day_16/notebook.ipynb).  
+* ⭐ ⭐ [Day 17](https://adventofcode.com/2024/day/17): Chronospatial Computer: [post](/resources/aoc/2024/day_17) & [notebook](
 
 *Note: As can be seen, I am now playing catch-up with the puzzles as I just started a new job in a new country so I am a bit behind. Still optimistic I will be able to catch up tho 🤞*
 
