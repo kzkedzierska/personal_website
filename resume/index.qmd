@@ -1,0 +1,9 @@
+---
+title: "index"
+format: html
+---
+
+<meta>
+  <meta http-equiv="refresh" content="0; url=../assets/cv/resume.html">
+  <link rel="canonical" href="../assets/cv/resume.html">
+</meta>

@@ -1,0 +1,9 @@
+---
+title: "index"
+format: html
+---
+
+<meta>
+  <meta http-equiv="refresh" content="0; url=../assets/cv/index.html">
+  <link rel="canonical" href="../assets/cv/index.html">
+</meta>
