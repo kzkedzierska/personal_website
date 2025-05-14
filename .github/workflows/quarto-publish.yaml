@@ -24,6 +24,13 @@ jobs:
           # tinytex: true 
           version: 1.5.56
       
+      # Add this step to set up R before using renv
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: 'release'
+      
+      # Now renv will work properly
       - uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1.0.0
